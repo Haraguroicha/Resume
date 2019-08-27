@@ -1,0 +1,20 @@
+sudo: false
+language: go
+go:
+  - 1.11.x
+install:
+  - go get github.com/gohugoio/hugo
+branches:
+  only:
+  - master
+env:
+  - GO111MODULE=on
+script:
+  - ./build.sh
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: .build/
+  on:
+    branch: master

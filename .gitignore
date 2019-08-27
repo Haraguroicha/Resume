@@ -12,7 +12,8 @@
 *.out
 
 # Hugo default output directory
-/public
+/src/public
+/src/resources
 
 ## OS Files
 # Windows
@@ -23,3 +24,6 @@ $RECYCLE.BIN/
 
 # OSX
 .DS_Store
+
+# build.sh generated
+/.build

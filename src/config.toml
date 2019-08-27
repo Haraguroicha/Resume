@@ -1,0 +1,10 @@
+title = "Haraguroicha's Resume"
+#theme = ""
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+[params]
+editURL = ""
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
