@@ -1,0 +1,28 @@
+@import url("{{ .Site.BaseURL }}assets/css/styles-4.css");
+
+$mainColor: #4d256f;
+
+.sidebar-wrapper {
+    width: 270px;
+    background-color: $mainColor;
+
+    & .name {
+        font-size: 28px;
+    }
+    & .list-unstyled.contact-list i.fa {
+        text-align: center;
+        width: 18px;
+    }
+}
+
+a {
+    color: $mainColor;
+}
+
+.main-wrapper .section-title {
+    color: $mainColor;
+
+    & .fa {
+        background-color: $mainColor;
+    }
+}
