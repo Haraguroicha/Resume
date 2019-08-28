@@ -147,23 +147,23 @@ params:
     enable: true
     icon: fa-rocket
     list:
-      - skill: "Objective-C (All platform)"
-      - skill: "Python"
-      - skill: "Golang"
-      - skill: "Git"
-      - skill: "C#"
-      - skill: "Bash"
-      - skill: "macOS"
-      - skill: "Linux"
-      - skill: "GitLab"
-      - skill: "GitLab CI"
-      - skill: "Docker"
-      - skill: "Kubernetes"
-      - skill: "Nginx"
-      - skill: "PostgreSQL"
-      - skill: "Oracle DB"
-      - skill: "IBM DB2"
-      - skill: "MySQL"
+      - skill: Objective-C (All platform)
+      - skill: Python
+      - skill: Golang
+      - skill: Git
+      - skill: C#
+      - skill: Bash
+      - skill: macOS
+      - skill: Linux
+      - skill: GitLab
+      - skill: GitLab CI
+      - skill: Docker
+      - skill: Kubernetes
+      - skill: Nginx
+      - skill: PostgreSQL
+      - skill: Oracle DB
+      - skill: IBM DB2
+      - skill: MySQL
   footer:
     copyright: 腹黒い茶
 
