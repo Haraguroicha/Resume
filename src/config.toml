@@ -1,10 +1,13 @@
 title = "Haraguroicha's Resume"
-#theme = ""
+theme = "hugo-orbit-theme"
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
 
 [params]
-editURL = ""
+editURL = "https://github.com/Haraguroicha/Resume/edit/master/"
+
+[params.footer]
+copyright = "腹黒い茶"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]

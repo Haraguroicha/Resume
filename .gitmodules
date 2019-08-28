@@ -1,0 +1,3 @@
+[submodule "src/themes/hugo-orbit-theme"]
+	path = src/themes/hugo-orbit-theme
+	url = git@github.com:Haraguroicha/hugo-orbit-theme.git
