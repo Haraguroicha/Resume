@@ -12,8 +12,13 @@ params:
   author: 腹黒い茶
   styles: main.sass
   profile:
-    name: Ming-Ray Hsu 腹黒い茶
-    tagline: Systems Engineer, SRE, iOS Developer
+    name: |
+      Ming-Ray Hsu  
+      腹黒い茶
+    tagline: |
+      * Systems Engineer
+      * SRE
+      * iOS Developer
     avatar: https://avatars3.githubusercontent.com/u/1715541?s=180&v=4
   contact:
     enable: true

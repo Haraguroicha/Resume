@@ -2,8 +2,22 @@
 
 $mainColor: #4d256f;
 
+@media (min-width: 767px) {
+    .sidebar-wrapper {
+        width: 270px;
+    }
+}
+
+.profile-container .tagline ul {
+    list-style-type: square;
+    padding-left: 35px;
+
+    & li {
+        text-align: left;
+    }
+}
+
 .sidebar-wrapper {
-    width: 270px;
     background-color: $mainColor;
 
     & .name {

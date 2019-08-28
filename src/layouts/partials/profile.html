@@ -1,5 +1,5 @@
             <div class="profile-container">
                 <img class="profile img-circle" src="{{ .Site.Params.profile.avatar }}" alt="" />
-                <h1 class="name">{{ .Site.Params.profile.name }}</h1>
-                <h3 class="tagline">{{ .Site.Params.profile.tagline }}</h3>
+                <h1 class="name">{{ .Site.Params.profile.name | markdownify }}</h1>
+                <h3 class="tagline">{{ .Site.Params.profile.tagline | markdownify }}</h3>
             </div><!--//profile-container-->
