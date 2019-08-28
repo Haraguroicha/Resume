@@ -3,7 +3,7 @@ language: go
 go:
   - 1.11.x
 install:
-  - go get github.com/gohugoio/hugo
+  - go get --tags extended github.com/gohugoio/hugo
   - hugo version
 branches:
   only:
