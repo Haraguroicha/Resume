@@ -7,6 +7,7 @@ enableMissingTranslationPlaceholders: true
 googleAnalytics: ""
 
 params:
+  githubBase: https://github.com/Haraguroicha/Resume
   description: Haraguroicha Resume/CV
   author: 腹黒い茶
   styles: main.sass
@@ -45,10 +46,6 @@ params:
         icon: fa-twitter
         url: //twitter.com/haraguroicha
         title: "@haraguroicha"
-      - class: rev
-        icon: fa-code-fork
-        url: ""
-        title: "rev: "
   language:
     enable: true
     title: Languages

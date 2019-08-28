@@ -1,7 +1,14 @@
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
-				{{ range .Site.Params.contact.list }}
+                {{ range .Site.Params.contact.list }}
                     <li class="{{ .class }}"><i class="fa {{ .icon }}"></i><a href="{{ .url | safeURL }}">{{ .title }}</a></li>
-				{{ end }}
+                {{ end }}
+                {{ with $.Site.Data.rev }}
+                    {{ $git := . }}
+                    <li class="rev">
+                        <i class="fa fa-code-fork"></i>
+                        <a href="{{ $.Site.Params.githubBase | safeURL }}/commit/{{ $git.AbbreviatedHash }}">#{{ $git.AbbreviatedHash }}</a>
+                    </li>
+                {{ end }}
                 </ul>
             </div><!--//contact-container-->

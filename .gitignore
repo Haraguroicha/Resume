@@ -27,3 +27,6 @@ $RECYCLE.BIN/
 
 # build.sh generated
 /.build
+
+# ignore dynamic generated file
+/src/data/rev.yaml
