@@ -4,7 +4,7 @@ languageCode: en-us
 DefaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 enableMissingTranslationPlaceholders: true
-googleAnalytics: ""
+googleAnalytics: UA-146617747-1
 
 params:
   githubBase: https://github.com/Haraguroicha/Resume
