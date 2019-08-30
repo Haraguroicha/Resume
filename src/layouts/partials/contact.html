@@ -9,7 +9,7 @@
                         <i class="fa fa-code-fork"></i>
                         <a href="{{ $.Site.Params.githubBase | safeURL }}/commit/{{ $git.AbbreviatedHash }}">
                             <span class="hash">#{{ $git.AbbreviatedHash }} (at </span>
-                            {{ now.Format "2006-01-02" }}
+                            {{- now.Format "2006-01-02" -}}
                             <span class="hash">)</span>
                         </a>
                     </li>
