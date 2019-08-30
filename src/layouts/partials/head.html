@@ -1,16 +1,32 @@
-    <title>{{ .Site.Params.title }}</title>
+    {{- $preview_image := .Site.Params.og_image.image -}}
+    {{- $title := .Site.Params.title -}}
+    <title>{{ $title }}</title>
     <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{ .Site.Params.description }}">
-    <meta name="author" content="{{ .Site.Params.author }}">
-    <link rel="shortcut icon" href="favicon.ico">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index,follow" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="{{ $preview_image }}" />
+    <meta property="fb:app_id" content="{{ .Site.Params.fb.app_id }}" />
+    <meta property="fb:pages" content="{{ .Site.Params.fb.pages_id }}" />
+    <meta property="og:title" content="{{ $title | truncate 80 }}" />
+    <meta property="og:url" content="{{ .Page.Permalink }}" />
+    <meta property="og:image" content="{{ $preview_image }}" />
+    <meta property="og:image:type" content="{{ .Site.Params.og_image.type }}" />
+    <meta property="og:image:width" content="{{ .Site.Params.og_image.width }}" />
+    <meta property="og:image:height" content="{{ .Site.Params.og_image.height }}" />
+    <meta property="og:site_name" content="{{ .Site.Params.short_title }}" />
+    <meta property="og:locale" content="{{ .Site.Params.locale }}" />
+    <meta property="og:description" content="{{ .Site.Params.description }}" />
+    <meta name="description" content="{{ .Site.Params.description }}" />
+    <meta name="author" content="{{ .Site.Params.author }}" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css' />
     <!-- Global CSS -->
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/plugins/bootstrap/css/bootstrap.min.css" />
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/plugins/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/plugins/font-awesome/css/font-awesome.css" />
 
     <!-- Theme CSS -->
     {{ $styles := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS | minify | fingerprint }}

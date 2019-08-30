@@ -8,9 +8,19 @@ googleAnalytics: UA-146617747-1
 
 params:
   title: Resume / CV - Ming-Ray Hsu (腹黒い茶)
+  short_title: Ming-Ray's Resume / CV
   githubBase: https://github.com/Haraguroicha/Resume
   description: Haraguroicha Resume/CV
   author: 腹黒い茶
+  locale: en_US
+  fb:
+    app_id: 2444528935631510
+    pages_id: 111936232493172
+  og_image:
+    image: https://avatars3.githubusercontent.com/u/1715541?v=4&s=420
+    type: image/jpeg
+    width: 420
+    height: 420
   styles: main.sass
   profile:
     name: |
@@ -20,7 +30,7 @@ params:
       * Systems Engineer
       * SRE
       * iOS Developer
-    avatar: https://avatars3.githubusercontent.com/u/1715541?s=180&v=4
+    avatar: https://avatars3.githubusercontent.com/u/1715541?v=4&s=180
   contact:
     enable: true
     list:
