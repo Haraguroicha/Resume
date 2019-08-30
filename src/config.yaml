@@ -72,7 +72,8 @@ params:
     list:
       - position: Systems Engineer
         company: TeamT5 Inc.
-        dates: Aug. 2018 - Present (-) |  Taipei, Taiwan
+        dates: 2018-08 - Present
+        location: Taipei, Taiwan
         details: |
           Manage private Virtual Machine Farms (VMF), office networking and infrastructures. Re-design the server room layout to save the energy waste, and manage.
 
@@ -82,7 +83,8 @@ params:
 
       - position: Site Reliability Engineer
         company: Rayark Inc.
-        dates: Dec. 2017 - May 2018 (6 mo.) | Taipei, Taiwan
+        dates: 2017-12 - 2018-05
+        location: Taipei, Taiwan
         details: |
           Deploy and manage the REST API Server Perform the load test and volume test on GKE (Google Cloud Kubernetes) and GCP (Google Compute Engine)
 
@@ -94,7 +96,8 @@ params:
 
       - position: Software Developer
         company: Koo Foundation Sun Yat-Sen Cancer Center (KFSYSCC)
-        dates: Jul. 2013 - Nov. 2017 (4 yr. 5 mo.) | Taipei, Taiwan
+        dates: 2013-07 - 2017-11
+        location: Taipei, Taiwan
         details: |
           Consolidate team members' ideas to have problem solution through system architecture and/or framework. Improve workflow of management issues by using in-house developed software.
 
@@ -116,17 +119,20 @@ params:
 
       - position: System Administrator (part-time)
         company: National Taipei University of Nursing and Health Sciences (NTUNHS), Department of Information Management
-        dates: Jul. 2011 - Jul. 2013 (2 yr.) | Taipei, Taiwan
+        dates: 2011-07 - 2013-07
+        location: Taipei, Taiwan
         details: |
           Deploy and administrate Active Directory in laboratory
       - position: Software Engineering Intern (part-time)
         company: Cathay General Hospital (C.G.H.)
-        dates: Jul. 2007 - Sep. 2009 (2 yr. 2 mo.) | Taipei, Taiwan
+        dates: 2007-07 - 2009-09
+        location: Taipei, Taiwan
         details: |
           Use PHP, MySQL and IBM DB2 to design and develop an integrated Healthcare Information System (HIS) for taking care in-patient. (Note: this system was renamed to be i-Mobile Medical Information System formally and won the National Health Science and Technology Quality Bronze Award in 2013)
       - position: Solution Developer
         company: CPRTeam
-        dates: Aug. 2011 ~ Jun. 2017 (7 yr. 10 mo.) | Taipei, Taiwan
+        dates: 2011-08 - 2017-06
+        location: Taipei, Taiwan
         details: |
           Configure wireless network to Internet network for conference with 500+ to 1500+ attendees
 

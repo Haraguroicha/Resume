@@ -1,6 +1,7 @@
 @import url("{{ .Site.BaseURL }}assets/css/styles-4.css");
 
 $mainColor: #4d256f;
+$infoColor: #97aac3;
 
 @media (min-width: 767px) {
     .sidebar-wrapper {
@@ -33,10 +34,22 @@ a {
     color: $mainColor;
 }
 
-.main-wrapper .section-title {
-    color: $mainColor;
+.main-wrapper {
+    & .experiences-section .item .meta {
+        & .location {
+            float: right;
+        }
+        & .time, & .company, & .location {
+            color: $infoColor;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+    }
+    & .section-title {
+        color: $mainColor;
 
-    & .fa {
-        background-color: $mainColor;
+        & .fa {
+            background-color: $mainColor;
+        }
     }
 }
