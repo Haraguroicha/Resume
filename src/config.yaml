@@ -7,6 +7,7 @@ enableMissingTranslationPlaceholders: true
 googleAnalytics: UA-146617747-1
 
 params:
+  title: Resume / CV - Ming-Ray Hsu (腹黒い茶)
   githubBase: https://github.com/Haraguroicha/Resume
   description: Haraguroicha Resume/CV
   author: 腹黒い茶
