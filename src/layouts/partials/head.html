@@ -29,8 +29,10 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/plugins/font-awesome/css/font-awesome.css" />
 
     <!-- Theme CSS -->
-    {{ $styles := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+    {{- $main := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS | minify | fingerprint -}}
+    {{- $print := resources.Get "scss/print.scss" | resources.ExecuteAsTemplate "print.scss" . | toCSS | minify | fingerprint -}}
+    <link rel="stylesheet" href="{{ $main.Permalink }}" integrity="{{ $main.Data.Integrity }}" media="screen">
+    <link rel="stylesheet" href="{{ $print.Permalink }}" integrity="{{ $print.Data.Integrity }}" media="print">
     <!--<link id="theme-style" rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/{{ .Site.Params.styles }}">-->
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>

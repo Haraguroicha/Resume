@@ -1,7 +1,6 @@
 @import url("{{ .Site.BaseURL }}assets/css/styles-4.css");
 
-$mainColor: #4d256f;
-$infoColor: #97aac3;
+@import "color";
 
 @media (min-width: 767px) {
     .sidebar-wrapper {

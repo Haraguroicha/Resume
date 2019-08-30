@@ -1,0 +1,130 @@
+@import "color";
+
+$sectionLine: 2px solid gray;
+
+@media print {
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    i.fa {
+        display: none;
+    }
+    .sidebar-wrapper {
+        & .profile-container {
+            & img.profile {
+                display: none;
+            }
+            & .name {
+                margin: 5px 0 0 0;
+                display: inline-block;
+                & br {
+                    display: none;
+                }
+            }
+            & .tagline {
+                font-size: 18px;
+                margin: 5px 0 0 0;
+                display: inline-block;
+                & ul {
+                    list-style-type: none;
+                    padding: 0;
+                    & li {
+                        display: inline-block;
+                    }
+                    & li:not(:last-child):after {
+                        content: ' / ';
+                    }
+                }
+            }
+        }
+        & .container-block {
+            border-bottom: $sectionLine;
+        }
+        & .contact-container {
+            padding: 0;
+            & .contact-list {
+                & a[href]:after {
+                    content: "" !important;
+                }
+                & li {
+                    display: inline;
+                }
+                & li:not(:last-child):after {
+                    content: ' | ';
+                }
+                & li:nth-child(4n):after {
+                    content: "\A";
+                    white-space: pre;
+                }
+                & li:before {
+                    content: attr(class) ': '
+                }
+                & li.rev a span.hash {
+                    display: none;
+                }
+            }
+        }
+        & .language-container {
+            & .container-block-title {
+                font-size: 20px;
+                margin: 10px 0 0 0;
+            }
+            & ul {
+                list-style-type: none;
+                padding: 0;
+                & li {
+                    display: inline-block;
+                }
+                & li:not(:last-child):after {
+                    content: ', ';
+                }
+            }
+        }
+    }
+    .main-wrapper {
+        & .section {
+            & .section-title {
+                margin: 10px 0 5px 0;
+            }
+        }
+        & .section:not(:last-child) {
+            border-bottom: $sectionLine;
+        }
+        & .experiences-section {
+            & .item {
+                & .job-title {
+                    display: inline-block;
+                    font-weight: bold;
+                    margin: 0;
+                }
+                & .time {
+                    display: inline-block;
+                    float: right;
+                }
+                & .job-title, & .company, & .location {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .skillset {
+        & .label {
+            border: 0;
+            font-weight: normal;
+            font-size: 14px;
+            padding: 0;
+        }
+        & .label:not(:last-child):after {
+            content: ', ';
+        }
+    }
+    footer {
+        display: none;
+    }
+}
