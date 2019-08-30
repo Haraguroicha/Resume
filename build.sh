@@ -17,4 +17,6 @@ HUGO_ENV=production hugo -b "/"
 
 cd "${DIR}"
 
+rm "${DIR}/src/public/assets/css/"styles-*.css
+
 cp -R {src/public,config,run-server,Procfile} "${TARGET}/"
