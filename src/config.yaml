@@ -41,7 +41,7 @@ params:
       - class: phone
         icon: fa-phone
         url: "tel:+886983604005"
-        title: "+886983604005"
+        title: "+886-983-604-005"
       - class: gpg
         icon: fa-key
         url: //pgp.mit.edu/pks/lookup?search=0xBF78E2BAA68644F0
