@@ -71,7 +71,7 @@ params:
       - language: English
         level: Read / Write / Speak
       - language: Japanese
-        level: Read / Sepak
+        level: Read / Speak
   summary:
     enable: false
     icon: fa-user
