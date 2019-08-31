@@ -162,6 +162,24 @@ params:
           * Develop [iOS version](https://github.com/CCIP-App/CCIP-iOS), [Pass landing page](https://github.com/CCIP-App/CCIP-Landing) and [administration dashboard page](https://github.com/CCIP-App/CCIP-Administration)
           * Used in COSCUP 2016, 2017, 2018, 2019, SITCON 2018, 2019, PyConTW 2018, g0v summit 2018 and HITCON CMT 2019
             * OPass app ([App Store](https://itunes.apple.com/app/id1436417025?mt=8))
+  education:
+    enable: true
+    icon: fa-graduation-cap
+    list:
+      - college: National Taipei University of Nursing and Health Sciences (NTUNHS)
+        degree: Master Degree, Department of Information Management
+        dates: 2011 - 2013
+        details: |
+          * Study Healthcare and Informatics, Software Engineering
+          * Study and develop a template system to read HL7 (Health Level 7) CDA® R2 (Clinical Document Architecture Release 2) XML into HTML5 Canvas directly and layout a WYSIWYG (What You See Is What You Get) document by using Web Component technologies
+      - college: |
+          Tzu Chi College of Technology (TCCT)  
+          Tzu Chi University of Science and Technology (TCUST, Renamed in 2015)
+        degree: Bachelor Degree, Department of Information Engineering and Informatics
+        dates: 2007 - 2011
+        details: |
+          * Study Software Engineering and RFID related software development
+          * Study HTML5 related software development, and create an interactive website w/o using any Flash technology
   skills:
     enable: true
     icon: fa-rocket
