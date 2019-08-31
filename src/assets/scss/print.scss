@@ -28,11 +28,13 @@ $sectionLine: 2px solid gray;
                 }
             }
             & .tagline {
-                font-size: 18px;
-                margin: 5px 0 0 0;
+                font-size: 16px;
+                float: right;
+                margin: 14px 0 0 0;
                 display: inline-block;
                 & ul {
                     list-style-type: none;
+                    margin: 0;
                     padding: 0;
                     & li {
                         display: inline-block;
@@ -100,7 +102,6 @@ $sectionLine: 2px solid gray;
             & .item {
                 & .job-title {
                     display: inline-block;
-                    font-weight: bold;
                     margin: 0;
                 }
                 & .time {
@@ -110,6 +111,19 @@ $sectionLine: 2px solid gray;
                 & .job-title, & .company, & .location {
                     font-weight: bold;
                 }
+            }
+        }
+        & .educationset .meta {
+            & .degree {
+                display: inline-block;
+                margin: 0;
+            }
+            & .time {
+                display: inline-block;
+                float: right;
+            }
+            & .degree, & .college {
+                font-weight: bold;
             }
         }
     }
