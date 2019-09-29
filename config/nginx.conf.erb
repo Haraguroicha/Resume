@@ -50,7 +50,7 @@ http {
 
   server {
     listen <%= ENV["PORT"] %>;
-    server_name haraguroicha.work *.haraguroicha.work;
+    server_name default_server;
     keepalive_timeout 5;
     client_max_body_size <%= ENV['NGINX_CLIENT_MAX_BODY_SIZE'] || 1 %>M;
 
@@ -66,6 +66,11 @@ http {
         internal;
     }
 
-    include locations.conf;
+    location / {
+      internal;
+      return 404;
+    }
   }
+
+  include sites.conf.d/*.conf;
 }
