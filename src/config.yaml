@@ -91,6 +91,7 @@ params:
           * Use GitLab CI to manage private DNS config and record through config test and deploy stage
           * Set up the Polycom and SIP Phones
           * Mornitoring the server and its services status by using Grafana to create dashboard
+          * Use BGP (Border Gateway Protocol) to make specified routing rules for route traffic to a dedicated address outbound
 
       - position: Site Reliability Engineer
         company: Rayark Inc.
@@ -103,7 +104,7 @@ params:
           * Re-Configure the GCP Firewall settings to preven database being unauthroized accessment
           * Perform load and volume test by rebuilding bandbox in whole system
           * Make Golang program to have more verbose for debugging (incl. CI/CD environment variables)
-          * Tune CI/CD flow for GKE projectdeployment
+          * Tune CI/CD flow for GKE project deployment
 
       - position: Software Developer
         company: Koo Foundation Sun Yat-Sen Cancer Center (KFSYSCC)
