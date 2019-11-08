@@ -90,7 +90,7 @@ params:
 
           * Use GitLab CI to manage private DNS config and record through config test and deploy stage
           * Set up the Polycom and SIP Phones
-          * Mornitoring the server and its services status by using Grafana to create dashboard
+          * Monitoring the server and its services status by using Grafana to create a dashboard
           * Use BGP (Border Gateway Protocol) to make specified routing rules for route traffic to a dedicated address outbound
 
       - position: Site Reliability Engineer
