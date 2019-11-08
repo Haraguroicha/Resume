@@ -86,12 +86,16 @@ params:
         dates: 2018-08 - Present
         location: Taipei, Taiwan
         details: |
-          Manage private Virtual Machine Farms (VMF), office networking and infrastructures. Re-design the server room layout to save the energy waste, and manage.
+          Manage private Virtual Machine Farms (VMF), office networking and infrastructures. Re-design/Relocate the server room layout to save the energy waste, and manage.
 
           * Use GitLab CI to manage private DNS config and record through config test and deploy stage
-          * Set up the Polycom and SIP Phones
+          * Set up the Polycom and SIP Phones via free version of Elastix PBX
+          * Improve the network sensitivity by blocking cross VLAN communication capability to specified network
           * Monitoring the server and its services status by using Grafana to create a dashboard
           * Use BGP (Border Gateway Protocol) to make specified routing rules for route traffic to a dedicated address outbound
+          * Lead to deploy virtual machine and virtual container into Proxmox VE Server
+          * Planning networking for office relocation
+          * Planning and integrate the Server Room for relocation to IDC
 
       - position: Site Reliability Engineer
         company: Rayark Inc.
