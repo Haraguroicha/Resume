@@ -96,6 +96,9 @@ params:
           * Lead to deploy virtual machine and virtual container into Proxmox VE Server
           * Planning networking for office relocation
           * Planning and integrate the Server Room for relocation to IDC
+          * Lead to migrate Hardword RAID Storage Pools to Ceph Clusters
+          * Lead and design VLAN policies and IP access list (IP ACL)
+          * Lead to plan and migrate networking devices to enlarge the scaling from 400 concurrent hosts to 1500+
 
       - position: Site Reliability Engineer
         company: Rayark Inc.
