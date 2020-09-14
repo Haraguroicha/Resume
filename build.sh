@@ -8,8 +8,8 @@ mkdir -p "${DIR}/src/data"
 
 cd "${DIR}/src"
 
-isDirty="`git diff --quiet || echo '-dirty'`"
-shortVer="`git rev-parse --short master`${isDirty}"
+isDirty="$(git diff --quiet || echo '-dirty')"
+shortVer="$(git rev-parse --short master)${isDirty}"
 
 echo "AbbreviatedHash: ${shortVer}" > "${DIR}/src/data/rev.yaml"
 

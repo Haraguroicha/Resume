@@ -21,7 +21,7 @@ $sectionLine: 2px solid gray;
                 display: none;
             }
             & .name {
-                margin: 5px 0 0 0;
+                margin: 5px 0 0;
                 display: inline-block;
                 & br {
                     display: none;
@@ -30,7 +30,7 @@ $sectionLine: 2px solid gray;
             & .tagline {
                 font-size: 16px;
                 float: right;
-                margin: 14px 0 0 0;
+                margin: 14px 0 0;
                 display: inline-block;
                 & ul {
                     list-style-type: none;
@@ -75,7 +75,7 @@ $sectionLine: 2px solid gray;
         & .language-container {
             & .container-block-title {
                 font-size: 20px;
-                margin: 10px 0 0 0;
+                margin: 10px 0 0;
             }
             & ul {
                 list-style-type: none;
@@ -92,7 +92,7 @@ $sectionLine: 2px solid gray;
     .main-wrapper {
         & .section {
             & .section-title {
-                margin: 10px 0 5px 0;
+                margin: 10px 0 5px;
             }
         }
         & .section:not(:last-child) {
