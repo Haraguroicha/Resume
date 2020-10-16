@@ -93,6 +93,7 @@ params:
           * Improve the network sensitivity by blocking cross VLAN communication capability to specified network
           * Monitoring the server and its services status by using Grafana to create a dashboard
             * Lead to developing a toolset to push services information and statistics to InfluxDB server and display on Grafana
+            * Manage networking bandwidth usage through LibreNMS system
           * Use BGP (Border Gateway Protocol) to make specified routing rules for route traffic to a dedicated address outbound
           * Lead to deploy virtual machine and virtual container into Proxmox VE Server
           * Planning networking for office relocation
