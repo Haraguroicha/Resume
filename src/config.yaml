@@ -202,9 +202,9 @@ params:
     enable: true
     icon: fa-rocket
     list:
-      - skill: Objective-C (All platform)
-      - skill: Python
       - skill: Golang
+      - skill: Python
+      - skill: Objective-C (All platform)
       - skill: Git
       - skill: C#
       - skill: Bash
@@ -219,6 +219,8 @@ params:
       - skill: Oracle DB
       - skill: IBM DB2
       - skill: MySQL
+      - skill: 3ds Max
+      - skill: blender
   footer:
     copyright: 腹黒い茶
 
