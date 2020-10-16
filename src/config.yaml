@@ -10,7 +10,10 @@ params:
   title: Resume / CV - Ming-Ray Hsu (腹黒い茶)
   short_title: Ming-Ray's Resume / CV
   githubBase: https://github.com/Haraguroicha/Resume
-  description: Haraguroicha Resume/CV
+  description: |
+    Ming-Ray Hsu (腹黒い茶, Haraguroicha) Resume/CV
+
+    A Systems Engineer, SRE, iOS Developer with many experiences in 3C and Design area
   author: 腹黒い茶
   locale: en_US
   fb:
