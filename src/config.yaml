@@ -100,7 +100,7 @@ params:
           * Lead to migrate Hardword RAID Storage Pools to Ceph Clusters
           * Lead and design VLAN policies and IP access list (IP ACL)
           * Lead to plan and migrate networking devices to enlarge the scaling from 400 concurrent hosts to 1500+
-          * Lead to deploy autonomous system networking with 2 AS numbers by a /23 length final/8 IP address
+          * Lead to deploy autonomous system networking with 4 AS numbers by a /23 length final/8 IP address
             * Planning to connect with dual or more ISPs to make AS networking more reliability
             * Setting route object and domain object to resolve PTR request for mailing services
           * Deploy Mail Relay Gateway by using PROXMOX Mail Gateway
