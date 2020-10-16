@@ -172,6 +172,10 @@ params:
     icon: fa-archive
     intro: ""
     list:
+      - title: Wedding Invitation Page for myself
+        url: https://kutt.it/tea-fish
+        tagline: |
+          A Page using Vuetify framework to build and apply modified template from network, with pre-rendered 3D animation playback 4K resolution MP4 on page background
       - title: OPass (CCIP Pass) app Developer
         url: https://github.com/CCIP-App
         tagline: |
