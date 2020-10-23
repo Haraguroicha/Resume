@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume / CV - Ming-Ray Hsu (腹黒い茶)</title>
+    <link rel="canonical" href="{{ .Permalink }}"/>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8"/>
+    <noscript>
+        <meta http-equiv="refresh" content="0; url={{ .Permalink }}"/>
+    </noscript>
+    <script>
+      ;(function () {
+        // Only do i18n at root,
+        // otherwise, redirect immediately
+        if (window.location.pathname !== '/') {
+          window.location.replace('{{ .Permalink }}')
+          return
+        }
+
+        var getBrowserLanguages = function () {
+          var nav = window.navigator,
+          browserLanguagePropertyKeys = ['language', 'browserLanguage', 'systemLanguage', 'userLanguage'],
+          i,
+          language
+
+          if (Array.isArray(nav.languages)) {
+            return nav.languages
+          }
+
+          // support for other well known properties in browsers
+          for (i = 0; i < browserLanguagePropertyKeys.length; i++) {
+            language = nav[browserLanguagePropertyKeys[i]]
+            if (language && language.length) {
+              return [ language ]
+            }
+          }
+          return [ 'en' ]
+        }
+
+        const availableLangs = [ 'en', 'zh', 'ja' ];
+        const preferLangs = [...new Set(getBrowserLanguages().map(l => l.split('-').shift().toLowerCase()))];
+        console.log(`User available langs are: ${JSON.stringify(preferLangs)}`)
+        const matchedLangs = preferLangs.map(l => {
+          if (availableLangs.indexOf(l) !== -1) {
+            console.log(`Match for ${l} lang, add to redirect list.`);
+            return l;
+          } else {
+            console.log(`Not match for ${l} lang, try next.`);
+          }
+          return null
+        }).filter(l => l);
+        if (matchedLangs.length === 0) {
+          console.log(`Not match all lang, redirect refault.`);
+        } else {
+          const lang = matchedLangs[0];
+          console.log(`Redirecting to user first lang ${lang}.`);
+          window.location.replace(`/${lang}/`);
+        }
+      })()
+    </script>
+</head>
+<body>
+<h1>Rerouting</h1>
+<p>You should be rerouted in a jiff, if not, <a href="{{ .Permalink }}">click here</a>.</p>
+</body>
+</html>
