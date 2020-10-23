@@ -1,0 +1,145 @@
+title: 履歷 - Ming-Ray Hsu (腹黒い茶)
+short_title: Ming-Ray's 履歷
+description: |
+  Ming-Ray Hsu (腹黒い茶, Haraguroicha) 的履歷
+
+  一個在 3C 和設計領域都有豐富經驗的系統工程師, SRE, iOS 開發者
+profile:
+  name: |
+    Ming-Ray Hsu
+
+    腹黒い茶
+  tagline: |
+    * 系統工程師
+    * SRE
+    * iOS 開發者
+  avatar: https://avatars3.githubusercontent.com/u/1715541?v=4&s=180
+language:
+  enable: true
+  list:
+    - language: 中文
+      level: 母語
+    - language: 英文
+      level: 讀 / 寫 / 說
+    - language: 日文
+      level: 讀 / 寫 / 說
+jobs:
+  list:
+    - position: 系統工程師
+      company: TeamT5 Inc. (杜浦數位安全有限公司)
+      dates: 2018-08 - Present
+      location: 台灣台北
+      details: |
+        管理虛擬主機群，辦公室網絡，基礎架構和服務可靠性。 重新設計/重新佈置服務器機房架構，以節省能源並進行管理。
+
+        * 使用 GitLab CI 管理內部 DNS 設定，並且留下測試與部署及管理紀錄
+        * 使用免費版本的 Elastix PBX 來設定 Polycom (SCCP) 和 SIP 電話
+        * 管理與封鎖部分 VLAN 的跨網段連線能力，以增加網路安全性
+        * 使用 Grafana 建立儀表板來監控主機與服務狀態
+          * 帶領開發一個工具集來推送系統資訊與環境資訊到 InfluxDB 資料庫主機，並整合顯示在 Grafana 儀表板上
+        * 用 LibreNMS 系統來管理與呈現網路即時流量
+        * 使用 BGP (邊界閘道器協定) 來指定的動態的路由規則，以便管理特定出口規則
+        * 帶領建置使用 PROXMOX VE 主機來部署虛擬機器與容器
+        * 負責計畫辦公室搬遷的網路架構
+        * 負責計畫和整合伺服器機房搬遷到 IDC
+        * 帶領轉移硬體 RAID 到 Ceph 儲存叢集
+        * 帶領設計 VLAN 政策與 IP 存取規則 (IP ACL)
+        * 帶領計畫與擴充網路設備從 400 個線上設備到支援 1500 以上的容量
+        * 帶領使用 4 個 AS 編號與 512 個 final/8 IP 的資源來建置網路自治管理系統
+          * 計畫連線兩個以上的網路提供商來讓網路自治管理系統更可靠
+          * 設定路由與網域物件來讓域名反查可以被電子郵件信箱使用
+        * 使用 PROXMOX MG 來部署電子郵件信箱閘道
+          * 增加 DKIM 和 TLS 加密功能來防止被 Gmail 當成廣告退信
+    - position: 網站可靠性工程師
+      company: Rayark Inc. (雷亞遊戲)
+      dates: 2017-12 - 2018-05
+      location: 台灣台北
+      details: |
+        部署和管理在 GKE (Google Cloud Kubernetes) 和 GCP (Google Compute Engine) 上的 REST API 伺服器，並執行負載測試和容量測試
+
+        * 使用計算出的 HPA (Horizontal Pod Autoscaler) 配置部署 REST API 伺服器
+        * 為了防止未經授權的存取而重新設定 GCP 上的防火牆設定
+        * 在沙箱環境中重建整個環境來做大量負載測試
+        * 在 Golang 程式中顯示更詳細的偵錯訊息 (包含 CI/CD 變數等)
+        * 優化 GKE 部署專案的 CI/CD 流程
+    - position: 軟體工程師
+      company: 和信治癌中心醫院
+      dates: 2013-07 - 2017-11
+      location: 台灣台北
+      details: |
+        整合團隊成員的想法並使用修改系統架構和改善框架來改善問題，同時使用內部開發的軟體來改善管理與工作流程的問題
+
+        * 維護企業內部的 GitLab 伺服器，同時為所有人提供 git 和 CI/CD 服務
+        * 使用 Redmine 來改善同事之間的溝通，同時能夠更輕鬆的進行成本分析與管理
+        * 帶領團隊在 2014 年的時候設計與使用 C# 開發的 WebAPI 伺服器，然後可以讓使用 Objective-C 編寫的 iOS app 可以由此伺服器自動產生相關的 JavaScript 程式碼，並且這個系統在三年半間非常的穩定
+        * 在 2017 年使用 Python 和提供有快取功能的 SQL 指令支援來提升內部伺服器開發產能，並且提供即時修改 SQL 指令也無需重啟伺服器的功能
+        * 整合通用的商業邏輯到 WebAPI 伺服器內，來讓 Windows 與 Web 應用程式提升更高的管理性
+        * 提供 WebAPI 伺服器具有一個中央管理的工具，讓開發者可以直接測試和閱讀說明文件
+        * 在 WebAPI 伺服器上面提供字碼轉換的服務，並且使用 iconv 與參照 CNS11643 對照表來轉換 BIG5 與 UTF-8 造字區域的字
+        * 把伺服器分割到使用 Docker 容器的微服務架構
+        * 整合在 Linux 架構下的 Nginx 網頁伺服器與使用 uWSGI 代理服務並且提供 Python 基礎的 WebAPI 伺服器與使用者之間的通訊優化
+        * 在全部的專案上使用 CI/CD 流程來管理 WebAPI 伺服器和管理軟體安全與品質
+        * 導入 Code Review 來管理全部的程式碼合併要求與增進軟體品質
+        * 研究前端與後端技術的同時提供同事相關的開發經驗與建議與培訓課程
+        * 指出比較低落效能的 SQL 指令並且透過改寫與優化這些存在 Oracle 和 PostgreSQL 資料庫上面的架構及指令的問題
+        * 使用 [testssl.sh](https://testssl.sh) 這個工具來驗證全部提供服務的伺服器上面的相容性與安全性，並且產生對應的管理報告
+        * 部署行動裝置管理 (MDM) 的伺服器來管理 180 以上的 iOS 設備，同時提供預載的企業版 app
+    - position: 系統管理 (兼職)
+      company: 國立臺北護理健康大學資訊管理所
+      dates: 2011-07 - 2013-07
+      location: 台灣台北
+      details: |
+        在實驗室內建置與管理 Active Directory 環境
+    - position: 軟體工程師實習 (兼職)
+      company: 國泰綜合醫院
+      dates: 2007-07 - 2009-09
+      location: 台灣台北
+      details: |
+        使用 PHP 與 MySQL 和 IBM DB2 來設計與開發一個與醫療資訊系統 (HIS) 整合的住院病人照護系統
+
+        (這個系統後來被重新命名成 iMMIS 系統，並且得到了 2013 年度的國家生技醫療品質獎銅牌)
+    - position: 解決方案開發人員
+      company: CPRTeam (線路組)
+      dates: 2011-08 - 2017-06
+      location: 台灣台北
+      details: |
+        設定可容納 500 至 1500 名以上與會者進行會議的無線網絡
+
+        * 在沒有足夠合用的硬體環境中使用 15 分鐘內部署 36 台虛擬機 （使用 m0n0wall 軟路由） 與 36 種不同設定環境來提供給舉辦在 TICC 的 COSCUP 2013 的 1400 多名與會者的網路服務
+        * 開設開源專案目錄，例如無線電資產管理系統等，可參考 [CPRTeam 的相關專案](https://github.com/CPRTeam)
+projects:
+  enable: true
+  icon: fa-archive
+  intro: ""
+  list:
+    - title: 自己的婚禮邀請網站
+      url: https://kutt.it/tea-fish
+      tagline: |
+        用 Vuetify framework 修改改與建置從網路下載來的樣板來做一個單頁式網站，並且有預先輸出好的 4K 解析度 3D MP4 動畫在背景播放
+    - title: OPass app (CCIP Pass) 開發
+      url: https://github.com/CCIP-App
+      tagline: |
+        OPass app 舊稱 CCIP 快速通關 (社群自助報到專案) 提供了一個自助通關的手機應用程式來節省會眾報到時檢查票卷的人力成本和讓會眾可以有更多機會來與大會提供的多鐘功能來互動 (例如大地遊戲和攤位獎賞活動)
+
+        * 開發 [iOS 版本](https://github.com/CCIP-App/CCIP-iOS), [登入首頁]](https://github.com/CCIP-App/CCIP-Landing) 和 [管理後台儀表板](https://github.com/CCIP-App/CCIP-Administration)
+        * 被 COSCUP 2016, 2017, 2018, 2019, 2020, SITCON 2018, 2019, 2020, PyConTW 2018, 2019, 2020, g0v summit 2018 和 HITCON CMT 2019 與 HITCON 2020 等會議中使用
+          * OPass app ([App Store](https://itunes.apple.com/app/id1436417025?mt=8))
+education:
+  enable: true
+  icon: fa-graduation-cap
+  list:
+    - college: 國立臺北護理健康大學
+      degree: 資訊管理碩士學位
+      dates: 2011 - 2013
+      details: |
+        * 研究醫療資訊與軟體開發
+        * 研究和開發一個樣板管理系統來讀取 HL7 (Health Level 7) 的 CDA® R2 (臨床文件架構第二版) XML 檔案到 HTML5 畫布，並且使用 Web Component 技術來提供具有 WYSIWYG (所見即所得) 編輯功能
+    - college: |
+        慈濟技術學絢
+
+        慈濟科技大學 (於 2015 改名)
+      degree: 資訊工程學士學位
+      dates: 2007 - 2011
+      details: |
+        * 研究軟體開發與 RFID 相關的軟體開發
+        * 研究和 HTML5 相關的軟體開發和建立一個完全不使用 Flash 技術的互動網站

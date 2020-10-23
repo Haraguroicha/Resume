@@ -8,6 +8,10 @@ languages:
     languageCode: en
     languageName: English
     weight: 1
+  zh:
+    languageCode: zh
+    languageName: 中文
+    weight: 2
 
 params:
   githubBase: https://github.com/Haraguroicha/Resume
