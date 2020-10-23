@@ -17,7 +17,7 @@ server {
     }
 
     location = / {
-        try_files /$lang/$uri /en/$uri /en/$uri/ /en/index.html;
+        try_files /$lang/$uri /$lang/index.html /en/$uri /en/$uri/ /en/index.html;
     }
 
     include locations.conf;
