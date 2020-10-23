@@ -16,6 +16,22 @@ server {
         internal;
     }
 
+    location /en/ {
+        if ($lang ~* en) {
+            return 302 /;
+        }
+    }
+    location /zh/ {
+        if ($lang ~* zh) {
+            return 302 /;
+        }
+    }
+    location /ja/ {
+        if ($lang ~* ja) {
+            return 302 /;
+        }
+    }
+
     location = / {
         try_files /$lang/$uri /$lang/index.html /en/$uri /en/$uri/ /en/index.html;
     }
