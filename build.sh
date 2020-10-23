@@ -19,4 +19,6 @@ cd "${DIR}"
 
 rm "${DIR}/src/public/assets/css/"styles-*.css
 
+rm src/public/index.html
+
 cp -R {src/public,config,run-server,Procfile} "${TARGET}/"

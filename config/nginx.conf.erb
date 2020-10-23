@@ -32,6 +32,11 @@ http {
     default "n/a";
     ~^(.*) $1;
   }
+  map $http_accept_language $lang {
+    default en;
+    ~zh zh;
+    ~ja ja;
+  }
   include allowed.conf;
 
   log_format l2met 'measure#nginx.service=$request_time request_id=$http_x_request_id ray=$ray ip=$connip geo=$country fwd=$http_x_forwarded_for';
