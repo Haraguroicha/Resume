@@ -2,6 +2,7 @@
     {{- $title := .Site.Params.title -}}
     <title>{{ $title }}</title>
     <!-- Meta -->
+    <base href="{{ .Site.BaseURL }}" />
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,16 +25,16 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css' />
     <!-- Global CSS -->
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/plugins/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />
     <!-- Plugins CSS -->
-    <link rel="stylesheet" href="{{ .Site.BaseURL }}assets/plugins/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css" />
 
     <!-- Theme CSS -->
     {{- $main := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS | minify | fingerprint -}}
     {{- $print := resources.Get "scss/print.scss" | resources.ExecuteAsTemplate "print.scss" . | toCSS | minify | fingerprint -}}
-    <link rel="stylesheet" href="{{ $main.Permalink }}" integrity="{{ $main.Data.Integrity }}" media="screen">
-    <link rel="stylesheet" href="{{ $print.Permalink }}" integrity="{{ $print.Data.Integrity }}" media="print">
-    <!--<link id="theme-style" rel="stylesheet" href="{{ .Site.BaseURL }}assets/css/{{ .Site.Params.styles }}">-->
+    <link rel="stylesheet" href="./{{ $main.RelPermalink }}" integrity="{{ $main.Data.Integrity }}" media="screen">
+    <link rel="stylesheet" href="./{{ $print.RelPermalink }}" integrity="{{ $print.Data.Integrity }}" media="print">
+    <!--<link id="theme-style" rel="stylesheet" href="assets/css/{{ .Site.Params.styles }}">-->
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>

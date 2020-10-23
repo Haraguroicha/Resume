@@ -1,0 +1,14 @@
+- id: education
+  translation: 學歷
+- id: experiences
+  translation: 經驗
+- id: interests
+  translation: 興趣
+- id: language
+  translation: 語言能力
+- id: projects
+  translation: 社群貢獻與專案
+- id: skills
+  translation: 技術能力
+- id: summary
+  translation: 自我介紹

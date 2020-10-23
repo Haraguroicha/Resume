@@ -1,21 +1,97 @@
-title: Haraguroicha's Resume
 theme: hugo-orbit-theme
-languageCode: en-us
 DefaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 enableMissingTranslationPlaceholders: true
 googleAnalytics: UA-146617747-1
+languages:
+  en:
+    languageCode: en
+    languageName: English
+    weight: 1
+    title: Resume / CV - Ming-Ray Hsu (腹黒い茶)
+    short_title: Ming-Ray's Resume / CV
+    description: |
+      Ming-Ray Hsu (腹黒い茶, Haraguroicha) Resume/CV
+
+      A Systems Engineer, SRE, iOS Developer with many experiences in 3C and Design area
+    profile:
+      name: |
+        Ming-Ray Hsu  
+        腹黒い茶
+      tagline: |
+        * Systems Engineer
+        * SRE
+        * iOS Developer
+      avatar: https://avatars3.githubusercontent.com/u/1715541?v=4&s=180
+    language:
+      enable: true
+      list:
+        - language: Chinese
+          level: Native
+        - language: English
+          level: Read / Write / Speak
+        - language: Japanese
+          level: Read / Write / Speak
+  zh:
+    languageCode: zh
+    languageName: 中文
+    weight: 2
+    title: 履歷 - Ming-Ray Hsu (腹黒い茶)
+    short_title: Ming-Ray's 履歷
+    description: |
+      Ming-Ray Hsu (腹黒い茶, Haraguroicha) 的履歷
+
+      一個在 3C 和設計領域都有豐富經驗的系統工程師, SRE, iOS 開發者
+    profile:
+      name: |
+        Ming-Ray Hsu  
+        腹黒い茶
+      tagline: |
+        * 系統工程師
+        * SRE
+        * iOS 開發者
+      avatar: https://avatars3.githubusercontent.com/u/1715541?v=4&s=180
+    language:
+      enable: true
+      list:
+        - language: 中文
+          level: 母語
+        - language: 英文
+          level: 讀 / 寫 / 說
+        - language: 日文
+          level: 讀 / 寫 / 說
+  ja:
+    languageCode: ja
+    languageName: 日本語
+    weight: 3
+    title: 履歴書 - Ming-Ray Hsu (腹黒い茶)
+    short_title: Ming-Ray's 履歴書
+    description: |
+      Ming-Ray Hsu (腹黒い茶, Haraguroicha) の履歴書
+
+      3Cおよび設計分野で多くの経験を持つシステムエンジニア、SRE、iOS開発者
+    profile:
+      name: |
+        Ming-Ray Hsu  
+        腹黒い茶
+      tagline: |
+        * システムエンジニア
+        * SRE
+        * iOS開発者
+      avatar: https://avatars3.githubusercontent.com/u/1715541?v=4&s=180
+    language:
+      enable: true
+      list:
+        - language: 中国語
+          level: 母国語
+        - language: 英語
+          level: 読む/書く/話す
+        - language: 日本語
+          level: 読む/書く/話す
 
 params:
-  title: Resume / CV - Ming-Ray Hsu (腹黒い茶)
-  short_title: Ming-Ray's Resume / CV
   githubBase: https://github.com/Haraguroicha/Resume
-  description: |
-    Ming-Ray Hsu (腹黒い茶, Haraguroicha) Resume/CV
-
-    A Systems Engineer, SRE, iOS Developer with many experiences in 3C and Design area
   author: 腹黒い茶
-  locale: en_US
   fb:
     app_id: 2444528935631510
     pages_id: 111936232493172
@@ -25,15 +101,6 @@ params:
     width: 420
     height: 420
   styles: main.sass
-  profile:
-    name: |
-      Ming-Ray Hsu  
-      腹黒い茶
-    tagline: |
-      * Systems Engineer
-      * SRE
-      * iOS Developer
-    avatar: https://avatars3.githubusercontent.com/u/1715541?v=4&s=180
   contact:
     enable: true
     list:
@@ -65,16 +132,6 @@ params:
         icon: fa-twitter
         url: //twitter.com/haraguroicha
         title: "@haraguroicha"
-  language:
-    enable: true
-    title: Languages
-    list:
-      - language: Chinese
-        level: Native
-      - language: English
-        level: Read / Write / Speak
-      - language: Japanese
-        level: Read / Speak
   summary:
     enable: false
     icon: fa-user
