@@ -63,7 +63,7 @@ jobs:
         * 在 Golang 程式中顯示更詳細的偵錯訊息 (包含 CI/CD 變數等)
         * 優化 GKE 部署專案的 CI/CD 流程
     - position: 軟體工程師
-      company: 和信治癌中心醫院
+      company: 醫療財團法人辜公亮基金會和信治癌中心醫院
       dates: 2013-07 - 2017-11
       location: 台灣台北
       details: |
@@ -91,7 +91,7 @@ jobs:
       details: |
         在實驗室內建置與管理 Active Directory 環境
     - position: 軟體工程師實習 (兼職)
-      company: 國泰綜合醫院
+      company: 國泰醫療財團法人國泰綜合醫院
       dates: 2007-07 - 2009-09
       location: 台灣台北
       details: |

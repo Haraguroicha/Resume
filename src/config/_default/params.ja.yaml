@@ -63,7 +63,7 @@ jobs:
         * Make Golang program to have more verbose for debugging (incl. CI/CD environment variables)
         * Tune CI/CD flow for GKE project deployment
     - position: ソフトウェア開発者
-      company: 和信治癌中心医院
+      company: 医療财团法人辜公亮基金会和信治癌中心医院
       dates: 2013-07 - 2017-11
       location: 台湾台北
       details: |
@@ -91,7 +91,7 @@ jobs:
       details: |
         研究室環境ではActive Directoryを作成しと管理する
     - position: ソフトウェアエンジニアインターン (パートタイム)
-      company: 国泰総合病院
+      company: 国泰医療财团法人国泰総合病院
       dates: 2007-07 - 2009-09
       location: 台湾台北
       details: |
