@@ -1,0 +1,145 @@
+title: 履歴書 - Ming-Ray Hsu (腹黒い茶)
+short_title: Ming-Ray's 履歴書
+description: |
+  Ming-Ray Hsu (腹黒い茶, Haraguroicha) の履歴書
+
+  3Cおよび設計分野で多くの経験を持つシステムエンジニア、SRE、iOS開発者
+profile:
+  name: |
+    Ming-Ray Hsu
+
+    腹黒い茶
+  tagline: |
+    * システムエンジニア
+    * SRE
+    * iOS開発者
+  avatar: https://avatars3.githubusercontent.com/u/1715541?v=4&s=180
+language:
+  enable: true
+  list:
+    - language: 中国語
+      level: 母国語
+    - language: 英語
+      level: 読む/書く/話す
+    - language: 日本語
+      level: 読む/書く/話す
+jobs:
+  list:
+    - position: システムエンジニア
+      company: TeamT5 Inc.
+      dates: 2018-08 - Present
+      location: 台湾台北
+      details: |
+        Manage private Virtual Machine Farms (VMF), office networking, infrastructures and service reliability. Re-design/Relocate the server room layout to save the energy waste, and manage.
+
+        * Use GitLab CI to manage private DNS config and record through config test and deploy stage
+        * Set up the Polycom (SCCP) and SIP Phones via free version of Elastix PBX
+        * Improve the network sensitivity by blocking cross VLAN communication capability to specified network
+        * Monitoring the server and its services status by using Grafana to create a dashboard
+          * Lead to developing a toolset to push services information and statistics to InfluxDB server and display on Grafana
+        * Manage networking bandwidth usage through LibreNMS system
+        * Use BGP (Border Gateway Protocol) to make specified routing rules for route traffic to a dedicated address outbound
+        * Lead to deploy virtual machine and virtual container into PROXMOX VE Server
+        * Planning networking for office relocation
+        * Planning and integrate the Server Room for relocation to IDC
+        * Lead to migrate Hardword RAID Storage Pools to Ceph Clusters
+        * Lead and design VLAN policies and IP access list (IP ACL)
+        * Lead to plan and migrate networking devices to enlarge the scaling from 400 concurrent hosts to 1500+
+        * Lead to deploy autonomous system networking with 4 AS numbers by a /23 length final/8 IP address
+          * Planning to connect with dual or more ISPs to make AS networking more reliability
+          * Setting route object and domain object to resolve PTR request for mailing services
+        * Deploy Mail Relay Gateway by using PROXMOX Mail Gateway
+          * Add DKIM (DomainKeys Identified Mail) and TLS Encryption to prevention internal mail dropped by Google Mail Service
+    - position: サイト信頼性エンジニア
+      company: Rayark Inc.
+      dates: 2017-12 - 2018-05
+      location: Taipei, Taiwan
+      details: |
+        Deploy and manage the REST API Server Perform the load test and volume test on GKE (Google Cloud Kubernetes) and GCP (Google Compute Engine)
+
+        * Deploy the REST API Server with the calculated HPA(Horizontal Pod Autoscaler) configuration
+        * Re-Configure the GCP Firewall settings to preven database being unauthroized accessment
+        * Perform load and volume test by rebuilding bandbox in whole system
+        * Make Golang program to have more verbose for debugging (incl. CI/CD environment variables)
+        * Tune CI/CD flow for GKE project deployment
+    - position: ソフトウェア開発者
+      company: 和信治癌中心医院
+      dates: 2013-07 - 2017-11
+      location: 台湾台北
+      details: |
+        Consolidate team members' ideas to have problem solution through system architecture and/or framework. Improve workflow of management issues by using in-house developed software.
+
+        * Maintain in-house GitLab server to have git repositories and CI/CD services been available for all designers.
+        * Improve communication among colleagues and do cost analysis easier by using Redmine.
+        * Lead a team to design and implement a WebAPI server, in 2014, to have the client library generation feature for JavaScript and Objective-C (iOS) written in C#, which makes the server be stable 3 and half years.
+        * Promote the server in Python w/ SQL command cache feature to have in-line development, in 2017, which allows to update the command text w/o restart the server
+        * Make higher maintainability among Windows Applications and Web Applications by integrating common business logics into WebAPI server
+        * Provide centralized management tool for designers to test and read the self-generated manual on the WebAPI Server
+        * Implement a codepage converting system on WebAPI server to convert Private Use Area (PUA) characters between BIG5 and UTF-8 by using iconv (UTF-8 and BIG5) codepage and CNS11643 mapping table
+        * Create Docker image to strip the whole service into microservice architecture
+        * Combined Python-based WebAPI server into Linux-based image with Nginx web server and uWSGI proxy which communicates between client and the WebAPI server
+        * Administrate WebAPI server and manage software security and quality by using CI/CD for all projects
+        * Administrate all merge requests and improve the software quality of projects by doing code review
+        * Study the frontend and backend technology, then, provide training courses of development experience and suggestion to colleagues
+        * Highlight low performance SQL commands, then, improve these defect by either rewriting command or modifying schemas on Oracle DB and PostgreSQL
+        * Validate the services of security and compatibility on servers and then generate the management report of all customer devices by using [testssl.sh](https://testssl.sh)
+        * Deploy MDM (Mobile Devices Management) to manage 180+ iOS devices to have in-house enterprise apps been pre-installed
+    - position: システム管理者 (パートタイム)
+      company: 国立台北護理健康大学情報管理学科
+      dates: 2011-07 - 2013-07
+      location: 台湾台北
+      details: |
+        研究室環境ではActive Directoryを作成しと管理する
+    - position: ソフトウェアエンジニアインターン (パートタイム)
+      company: 国泰総合病院
+      dates: 2007-07 - 2009-09
+      location: 台湾台北
+      details: |
+        PHP、MySQL、IBM DB2を使用して、入院患者情報用の統合医療情報システム（HIS）を設計および開発します。
+
+        (このシステムは後に「iMMISシステム」改名されます、と2013年の全国バイオテクノロジーおよび医療品質賞のブロンズメダルを受賞しました)
+    - position: ソリューション開発者
+      company: CPRTeam (線路組)
+      dates: 2011-08 - 2017-06
+      location: 台湾台北
+      details: |
+        Configure wireless network to Internet network for conference with 500+ to 1500+ attendees
+
+        * Provide network services for COSCUP, in 2013 at TICC, without being qualified hardwares, by building 36 Virtual Machines (m0n0wall software router) within 15 minutes to serve 1400+ attendees by 36 different configurations
+        * Create Open Source Codes for projects, such as handheld radio asset management, in [CPRTeam's repository](https://github.com/CPRTeam)
+projects:
+  enable: true
+  icon: fa-archive
+  intro: ""
+  list:
+    - title: 私自身の結婚式の招待状のページ
+      url: https://kutt.it/tea-fish
+      tagline: |
+        A Page using Vuetify framework to build and apply modified template from network, with pre-rendered 3D animation playback 4K resolution MP4 on page background
+    - title: OPass アプリ (CCIP パス) 開発者
+      url: https://github.com/CCIP-App
+      tagline: |
+        CCIP Pass (Community Check-in with Interactivity Project) app provides a self-checkin application on mobile to save manpower to check the attendee ticket, and let the attendees have more opportunities to interact with other features(e.g. Puzzle Game, Booth Reward Activity)
+
+        * Develop [iOS version](https://github.com/CCIP-App/CCIP-iOS), [Pass landing page](https://github.com/CCIP-App/CCIP-Landing) and [administration dashboard page](https://github.com/CCIP-App/CCIP-Administration)
+        * Used in COSCUP 2016, 2017, 2018, 2019, 2020, SITCON 2018, 2019, 2020, PyConTW 2018, 2019, 2020, g0v summit 2018 and HITCON CMT 2019 and HITCON 2020
+          * OPass app ([App Store](https://itunes.apple.com/app/id1436417025?mt=8))
+education:
+  enable: true
+  icon: fa-graduation-cap
+  list:
+    - college: 国立台北護理健康大学
+      degree: 情報管理学科の修士号
+      dates: 2011 - 2013
+      details: |
+        * Study Healthcare and Informatics, Software Engineering
+        * Study and develop a template system to read HL7 (Health Level 7) CDA® R2 (Clinical Document Architecture Release 2) XML into HTML5 Canvas directly and layout a WYSIWYG (What You See Is What You Get) document by using Web Component technologies
+    - college: |
+        慈済技術学校
+
+        慈済科技大学 (2015年に改名)
+      degree: 情報工学および情報学科の学士号
+      dates: 2007 - 2011
+      details: |
+        * Study Software Engineering and RFID related software development
+        * Study HTML5 related software development, and create an interactive website w/o using any Flash technology
