@@ -13,7 +13,7 @@ shortVer="$(git rev-parse --short master)${isDirty}"
 
 echo "AbbreviatedHash: ${shortVer}" > "${DIR}/src/data/rev.yaml"
 
-HUGO_ENV=production HUGO_DISABLELANGUAGES="zh" hugo -b "/" --minify
+HUGO_ENV=production HUGO_DISABLELANGUAGES="" hugo -b "/" --minify
 
 cd "${DIR}"
 

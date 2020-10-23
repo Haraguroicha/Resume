@@ -49,6 +49,7 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: .build
+        force_orphan: true
 #    - uses: akhileshns/heroku-deploy@v3.5.7
 #      with:
 #        heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
