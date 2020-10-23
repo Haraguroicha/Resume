@@ -20,7 +20,7 @@
                                 {{- $dateUTo := ((print $nextTo "-01T23:59:59Z") | time).Unix -}}
                                 {{- $yrs := div (sub $dateUTo $dateUFrom) 31536000 -}}
                                 {{- $mos := sub (div (sub $dateUTo $dateUFrom) 2628000) (mul $yrs 12) -}}
-                                {{ ((print $dateFrom "-01T00:00:00Z") | time).Format "Jan. 2006" }} - {{ if eq (lower $dateTo) "present" }}{{ $dateTo }}{{ else }}{{ ((print $dateToStr "-01T00:00:00Z") | time).Format "Jan. 2006" }}{{ end }}
+                                {{ ((print $dateFrom "-01T00:00:00Z") | time).Format "Jan. 2006" }} - {{ if eq (lower $dateTo) "present" }}{{ i18n $dateTo }}{{ else }}{{ ((print $dateToStr "-01T00:00:00Z") | time).Format "Jan. 2006" }}{{ end }}
                                 (
                                     {{- if (gt $yrs 0) }}{{ $yrs }} {{ cond (eq $yrs 1) "yr" "yrs" }} {{ end -}}
                                     {{- $mos }} {{ cond (eq $mos 1) "mo" "mos" -}}
