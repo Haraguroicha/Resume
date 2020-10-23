@@ -1,0 +1,90 @@
+theme: hugo-orbit-theme
+DefaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+enableMissingTranslationPlaceholders: true
+googleAnalytics: UA-146617747-1
+languages:
+  en:
+    languageCode: en
+    languageName: English
+    weight: 1
+
+params:
+  githubBase: https://github.com/Haraguroicha/Resume
+  author: 腹黒い茶
+  fb:
+    app_id: 2444528935631510
+    pages_id: 111936232493172
+  og_image:
+    image: https://avatars3.githubusercontent.com/u/1715541?v=4&s=420
+    type: image/jpeg
+    width: 420
+    height: 420
+  styles: main.sass
+  contact:
+    enable: true
+    list:
+      - class: email
+        icon: fa-envelope
+        url: mailto:m50gbmb@gmail.com
+        title: m50gbmb@gmail.com
+      - class: phone
+        icon: fa-phone
+        url: "tel:+886983604005"
+        title: "+886-983-604-005"
+      - class: gpg
+        icon: fa-key
+        url: //pgp.mit.edu/pks/lookup?search=0xBF78E2BAA68644F0
+        title: A68644F0
+      - class: website
+        icon: fa-globe
+        url: //haraguroicha.work
+        title: haraguroicha.work
+      - class: linkedin
+        icon: fa-linkedin
+        url: //www.linkedin.com/in/haraguroicha
+        title: linkedin.com/in/haraguroicha
+      - class: github
+        icon: fa-github
+        url: //github.com/Haraguroicha
+        title: github.com/Haraguroicha
+      - class: twitter
+        icon: fa-twitter
+        url: //twitter.com/haraguroicha
+        title: "@haraguroicha"
+  summary:
+    enable: false
+    icon: fa-user
+    summary: ""
+  experiences:
+    enable: true
+    icon: fa-briefcase
+  skills:
+    enable: true
+    icon: fa-rocket
+    list:
+      - skill: Golang
+      - skill: Python
+      - skill: Swift
+      - skill: Objective-C
+      - skill: Git
+      - skill: C#
+      - skill: Bash
+      - skill: macOS
+      - skill: Linux
+      - skill: GitLab
+      - skill: GitLab CI
+      - skill: Docker
+      - skill: Kubernetes
+      - skill: Nginx
+      - skill: PostgreSQL
+      - skill: Oracle DB
+      - skill: IBM DB2
+      - skill: MySQL
+      - skill: 3ds Max
+      - skill: blender
+  footer:
+    copyright: 腹黒い茶
+
+outputs:
+  home: [ "HTML", "RSS" ]
