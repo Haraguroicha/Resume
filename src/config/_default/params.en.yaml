@@ -114,7 +114,7 @@ projects:
       url: https://kutt.it/tea-fish
       tagline: |
         A Page using Vuetify framework to build and apply modified template from network, with pre-rendered 3D animation playback 4K resolution MP4 on page background
-    - title: OPass (CCIP Pass) app Developer
+    - title: OPass app (CCIP Pass) Developer
       url: https://github.com/CCIP-App
       tagline: |
         OPass aka. CCIP Pass (Community Check-in with Interactivity Project) app provides a self-checkin application on mobile to save manpower to check the attendee ticket, and let the attendees have more opportunities to interact with other features(e.g. Puzzle Game, Booth Reward Activity)
