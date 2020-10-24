@@ -44,7 +44,7 @@ jobs:
         * Planning and integrate the Server Room for relocation to IDC
         * Lead to migrate Hardword RAID Storage Pools to Ceph Clusters
         * Lead and design VLAN policies and IP access list (IP ACL)
-        * Lead to plan and migrate networking devices to enlarge the scaling from 400 concurrent hosts to 1500+
+        * Lead to plan and migrate networking devices to enlarge the scaling from 400 concurrent hosts to 1,500+
         * Lead to deploy autonomous system networking with 4 AS numbers by a /23 length final/8 IP address
           * Planning to connect with dual or more ISPs to make AS networking more reliability
           * Setting route object and domain object to resolve PTR request for mailing services
@@ -101,9 +101,9 @@ jobs:
       dates: 2011-08 - 2017-06
       location: Taipei, Taiwan
       details: |
-        Configure wireless network to Internet network for conference with 500+ to 1500+ attendees
+        Configure wireless network to Internet network for conference with 500+ to 1,500+ attendees
 
-        * Provide network services for COSCUP, in 2013 at TICC, without being qualified hardwares, by building 36 Virtual Machines (m0n0wall software router) within 15 minutes to serve 1400+ attendees by 36 different configurations
+        * Provide network services for COSCUP, in 2013 at TICC, without being qualified hardwares, by building 36 Virtual Machines (m0n0wall software router) within 15 minutes to serve 1,400+ attendees by 36 different configurations
         * Create Open Source Codes for projects, such as handheld radio asset management, in [CPRTeam's repository](https://github.com/CPRTeam)
 projects:
   enable: true

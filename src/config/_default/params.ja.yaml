@@ -30,38 +30,38 @@ jobs:
       dates: 2018-08 - Present
       location: 台湾台北
       details: |
-        Manage private Virtual Machine Farms (VMF), office networking, infrastructures and service reliability. Re-design/Relocate the server room layout to save the energy waste, and manage.
+        仮想ホスティンググループ、オフィスネットワーク、インフラストラクチャ、およびサービスの信頼性を管理します。 サーバールームアーキテクチャを再設計/再配置して、エネルギーを節約し、管理します。
 
-        * Use GitLab CI to manage private DNS config and record through config test and deploy stage
-        * Set up the Polycom (SCCP) and SIP Phones via free version of Elastix PBX
-        * Improve the network sensitivity by blocking cross VLAN communication capability to specified network
-        * Monitoring the server and its services status by using Grafana to create a dashboard
-          * Lead to developing a toolset to push services information and statistics to InfluxDB server and display on Grafana
-        * Manage networking bandwidth usage through LibreNMS system
-        * Use BGP (Border Gateway Protocol) to make specified routing rules for route traffic to a dedicated address outbound
-        * Lead to deploy virtual machine and virtual container into PROXMOX VE Server
-        * Planning networking for office relocation
-        * Planning and integrate the Server Room for relocation to IDC
-        * Lead to migrate Hardword RAID Storage Pools to Ceph Clusters
-        * Lead and design VLAN policies and IP access list (IP ACL)
-        * Lead to plan and migrate networking devices to enlarge the scaling from 400 concurrent hosts to 1500+
-        * Lead to deploy autonomous system networking with 4 AS numbers by a /23 length final/8 IP address
-          * Planning to connect with dual or more ISPs to make AS networking more reliability
-          * Setting route object and domain object to resolve PTR request for mailing services
-        * Deploy Mail Relay Gateway by using PROXMOX Mail Gateway
-          * Add DKIM (DomainKeys Identified Mail) and TLS Encryption to prevention internal mail dropped by Google Mail Service
+        * GitLab CI を使用して、内部 DNS 設定を管理し、テスト、展開、および管理データを記録します
+        * Elastix PBX の無料バージョンを使用して、Polycom (SCCP) および SIP 電話を展開します
+        * 一部の VLAN のクロスネットワーク接続機能を管理およびブロックして、ネットワークセキュリティを強化します
+        * Grafana を使用してダッシュボードを作成し、ホストとサービスのステータスを監視します
+          * システム情報と環境情報を InfluxDB にプッシュして記録し、Grafana ダッシュボードに表示するツールセットの開発を主導する
+        * LibreNMS システムを使用して、リアルタイムのネットワーク帯域幅の使用状況を管理および表示します
+        * BGP (ボーダーゲートウェイプロトコル) を使用して、トラフィックを専用アドレスのアウトバウンドにルーティングするための指定されたルーティングルールを作成します
+        * PROXMOX VE を使用して仮想マシンとコンテナを展開する構築を主導する
+        * 会社移転のネットワークアーキテクチャの計画を担当します
+        * サーバールームの計画と IDC (インターネットデータセンター) への再配置を担当します
+        * ハードウェア RAID を Ceph ストレージクラスターに移行担当する
+        * VLANポリシーとIPアクセスルール (IP ACL) の設計を主導する
+        * ネットワーク機器を 400 のオンライン機器から 1,500 を超える十分な容量に拡張する計画を主導する
+        * 4 つの AS 番号と 512 の final/8 IP リソースの使用を主導して、ネットワーク自律管理システムを構築します
+          * ネットワーク自律管理システムの信頼性を高めるために、複数のネットワークプロバイダーへの接続を計画する
+          * メールサービスの PTR リクエストを解析するためのルートオブジェクトとドメインオブジェクトの設定
+        * PROXMOX MG を使用して電子メールメールボックスゲートウェイを展開します
+          * Gmail が広告として返されるのを防ぐには、DKIM と TLS 暗号化を追加します
     - position: サイト信頼性エンジニア
       company: Rayark Inc.
       dates: 2017-12 - 2018-05
       location: Taipei, Taiwan
       details: |
-        Deploy and manage the REST API Server Perform the load test and volume test on GKE (Google Cloud Kubernetes) and GCP (Google Compute Engine)
+        GKE (Google Cloud Kubernetes) と GCP (Google Compute Engine) に REST API サーバーをデプロイして管理し、負荷テストと容量テストを実行します
 
-        * Deploy the REST API Server with the calculated HPA(Horizontal Pod Autoscaler) configuration
-        * Re-Configure the GCP Firewall settings to preven database being unauthroized accessment
-        * Perform load and volume test by rebuilding bandbox in whole system
-        * Make Golang program to have more verbose for debugging (incl. CI/CD environment variables)
-        * Tune CI/CD flow for GKE project deployment
+        * 計算された HPA (Horizo​​ntal Pod Autoscaler) 構成を使用して、REST API サーバーをデプロイします
+        * 不正アクセスを防ぐために、GCP でファイアウォール設定を構成します
+        * サンドボックス内の環境全体を再構築して、多くの負荷テストを実行します
+        * Golang プログラムでより詳細なデバッグメッセージを表示します (CI / CD 変数などを含む)
+        * GKE プロジェクト展開の CI / CD プロセスを改善する
     - position: ソフトウェア開発者
       company: 医療财团法人辜公亮基金会和信治癌中心医院
       dates: 2013-07 - 2017-11
@@ -103,10 +103,10 @@ jobs:
       dates: 2011-08 - 2017-06
       location: 台湾台北
       details: |
-        Configure wireless network to Internet network for conference with 500+ to 1500+ attendees
+        会議に 500 ~ 1500 人以上の参加者を収容できるワイヤレスネットワークを設定する
 
-        * Provide network services for COSCUP, in 2013 at TICC, without being qualified hardwares, by building 36 Virtual Machines (m0n0wall software router) within 15 minutes to serve 1400+ attendees by 36 different configurations
-        * Create Open Source Codes for projects, such as handheld radio asset management, in [CPRTeam's repository](https://github.com/CPRTeam)
+        * TICC の COSCUP 2013 で 1,400 人を超える参加者にネットワークサービスを提供し、不十分なハードウェア環境で使用してから15分以内に36台の仮想マシン（m0n0wallソフトルーティングを使用）と36の異なる設定環境を展開します
+        * 無線資産管理システムなどのオープンソースプロジェクトのカタログを開きます。[CPRTeam の関連プロジェクト](https://github.com/CPRTeam)を参照してください。
 projects:
   enable: true
   icon: fa-archive
@@ -115,15 +115,15 @@ projects:
     - title: 私自身の結婚式の招待状のページ
       url: https://kutt.it/tea-fish
       tagline: |
-        A Page using Vuetify framework to build and apply modified template from network, with pre-rendered 3D animation playback 4K resolution MP4 on page background
+        Vuetify フレームワークを使用して、インターネットからダウンロードしたテンプレートを変更および構築して 1 ページの Web サイトを作成し、プリ出力の 4K 解像度の 3D MP4 アニメーションをバックグラウンドで再生します
     - title: OPass アプリ (CCIP パス) 開発者
       url: https://github.com/CCIP-App
       tagline: |
-        CCIP Pass (Community Check-in with Interactivity Project) app provides a self-checkin application on mobile to save manpower to check the attendee ticket, and let the attendees have more opportunities to interact with other features(e.g. Puzzle Game, Booth Reward Activity)
+        以前は CCIP Pass (コミュニティセルフサービス登録プロジェクト) として知られていた OPass アプリ
 
-        * Develop [iOS version](https://github.com/CCIP-App/CCIP-iOS), [Pass landing page](https://github.com/CCIP-App/CCIP-Landing) and [administration dashboard page](https://github.com/CCIP-App/CCIP-Administration)
-        * Used in COSCUP 2016, 2017, 2018, 2019, 2020, SITCON 2018, 2019, 2020, PyConTW 2018, 2019, 2020, g0v summit 2018 and HITCON CMT 2019 and HITCON 2020
-          * OPass app ([App Store](https://itunes.apple.com/app/id1436417025?mt=8))
+        * 開発 [iOS バージョン](https://github.com/CCIP-App/CCIP-iOS), [パスログインホーム](https://github.com/CCIP-App/CCIP-Landing) と [管理ダッシュボードページ](https://github.com/CCIP-App/CCIP-Administration)
+        * COSCUP 2016, 2017, 2018, 2019, 2020, SITCON 2018, 2019, 2020, PyConTW 2018, 2019, 2020, g0v summit 2018 と HITCON CMT 2019 と HITCON 2020　などの会議で使用されます
+          * OPass アプリ ([App Store](https://itunes.apple.com/app/id1436417025?mt=8))
 education:
   enable: true
   icon: fa-graduation-cap
@@ -132,8 +132,8 @@ education:
       degree: 情報管理学科の修士号
       dates: 2011 - 2013
       details: |
-        * Study Healthcare and Informatics, Software Engineering
-        * Study and develop a template system to read HL7 (Health Level 7) CDA® R2 (Clinical Document Architecture Release 2) XML into HTML5 Canvas directly and layout a WYSIWYG (What You See Is What You Get) document by using Web Component technologies
+        * 医療情報とソフトウェア開発の研究
+        * HL7 (Health Level 7) の CDA® R2 (臨床文書フレームワーク第2版) XML ファイルを HTML5 キャンバスに読み取るためのテンプレート管理システムを研究および開発し、Web コンポーネントテクノロジーを使用して WYSIWYG (表示されるものが取得されるもの) 編集機能を提供します
     - college: |
         慈済技術学校
 
@@ -141,5 +141,5 @@ education:
       degree: 情報工学および情報学科の学士号
       dates: 2007 - 2011
       details: |
-        * Study Software Engineering and RFID related software development
-        * Study HTML5 related software development, and create an interactive website w/o using any Flash technology
+        * ソフトウェア開発と RFID 関連ソフトウェア開発の研究
+        * HTML5 に関連するソフトウェア開発を研究し、Flash テクノロジーをまったく使用しないインタラクティブな Web サイトを構築します
