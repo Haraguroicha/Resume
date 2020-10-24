@@ -44,6 +44,9 @@ $sectionLine: 2px solid gray;
                     }
                 }
             }
+            & .btn-translate {
+                display: none;
+            }
         }
         & .container-block {
             border-bottom: $sectionLine;
