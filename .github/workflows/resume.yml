@@ -8,6 +8,11 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+    - uses: szenius/set-timezone@v1.0
+      with:
+        timezoneLinux: "Asia/Taipei"
+        timezoneMacos: "Asia/Taipei"
+        timezoneWindows: "Taipei Standard Time"
     - uses: actions/checkout@v2
       with:
         submodules: true  # Fetch Hugo themes (true OR recursive)
