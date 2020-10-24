@@ -3,7 +3,7 @@ short_title: Ming-Ray's 履歴書
 description: |
   Ming-Ray Hsu (腹黒い茶, Haraguroicha) の履歴書
 
-  3Cおよび設計分野で多くの経験を持つシステムエンジニア、SRE、iOS開発者
+  3Cと設計分野で多くの経験を持つシステムエンジニア、SRE、iOS開発者
 profile:
   name: |
     Ming-Ray Hsu
@@ -30,14 +30,14 @@ jobs:
       dates: 2018-08 - Present
       location: 台湾台北
       details: |
-        仮想ホスティンググループ、オフィスネットワーク、インフラストラクチャ、およびサービスの信頼性を管理します。 サーバールームアーキテクチャを再設計/再配置して、エネルギーを節約し、管理します。
+        仮想ホスティンググループ、オフィスネットワーク、インフラストラクチャ、サービスの信頼性を管理します。 サーバールームアーキテクチャを再設計/再配置して、エネルギーを節約し、管理します。
 
-        * GitLab CI を使用して、内部 DNS 設定を管理し、テスト、展開、および管理データを記録します
-        * Elastix PBX の無料バージョンを使用して、Polycom (SCCP) および SIP 電話を展開します
-        * 一部の VLAN のクロスネットワーク接続機能を管理およびブロックして、ネットワークセキュリティを強化します
+        * GitLab CI を使用して、内部 DNS 設定を管理し、テスト、展開、管理データを記録します
+        * Elastix PBX の無料バージョンを使用して、Polycom (SCCP) と SIP 電話を展開します
+        * 一部の VLAN のクロスネットワーク接続機能を管理とブロックして、ネットワークセキュリティを強化します
         * Grafana を使用してダッシュボードを作成し、ホストとサービスのステータスを監視します
           * システム情報と環境情報を InfluxDB にプッシュして記録し、Grafana ダッシュボードに表示するツールセットの開発を主導する
-        * LibreNMS システムを使用して、リアルタイムのネットワーク帯域幅の使用状況を管理および表示します
+        * LibreNMS システムを使用して、リアルタイムのネットワーク帯域幅の使用状況を管理表示します
         * BGP (ボーダーゲートウェイプロトコル) を使用して、トラフィックを専用アドレスのアウトバウンドにルーティングするための指定されたルーティングルールを作成します
         * PROXMOX VE を使用して仮想マシンとコンテナを展開する構築を主導する
         * 会社移転のネットワークアーキテクチャの計画を担当します
@@ -67,23 +67,23 @@ jobs:
       dates: 2013-07 - 2017-11
       location: 台湾台北
       details: |
-        Consolidate team members' ideas to have problem solution through system architecture and/or framework. Improve workflow of management issues by using in-house developed software.
+        チームメンバーのアイデアを統合し、変更されたシステムアーキテクチャと改善フレームワークを使用して問題を改善し、社内で開発されたソフトウェアを使用して管理とワークフローの問題を改善します
 
-        * Maintain in-house GitLab server to have git repositories and CI/CD services been available for all designers.
-        * Improve communication among colleagues and do cost analysis easier by using Redmine.
-        * Lead a team to design and implement a WebAPI server, in 2014, to have the client library generation feature for JavaScript and Objective-C (iOS) written in C#, which makes the server be stable 3 and half years.
-        * Promote the server in Python w/ SQL command cache feature to have in-line development, in 2017, which allows to update the command text w/o restart the server
-        * Make higher maintainability among Windows Applications and Web Applications by integrating common business logics into WebAPI server
-        * Provide centralized management tool for designers to test and read the self-generated manual on the WebAPI Server
-        * Implement a codepage converting system on WebAPI server to convert Private Use Area (PUA) characters between BIG5 and UTF-8 by using iconv (UTF-8 and BIG5) codepage and CNS11643 mapping table
-        * Create Docker image to strip the whole service into microservice architecture
-        * Combined Python-based WebAPI server into Linux-based image with Nginx web server and uWSGI proxy which communicates between client and the WebAPI server
-        * Administrate WebAPI server and manage software security and quality by using CI/CD for all projects
-        * Administrate all merge requests and improve the software quality of projects by doing code review
-        * Study the frontend and backend technology, then, provide training courses of development experience and suggestion to colleagues
-        * Highlight low performance SQL commands, then, improve these defect by either rewriting command or modifying schemas on Oracle DB and PostgreSQL
-        * Validate the services of security and compatibility on servers and then generate the management report of all customer devices by using [testssl.sh](https://testssl.sh)
-        * Deploy MDM (Mobile Devices Management) to manage 180+ iOS devices to have in-house enterprise apps been pre-installed
+        * 企業の内部 GitLab サーバーを維持し、すべての人に git と CI / CD サービスを提供します
+        * Redmine を使用して同僚間のコミュニケーションを改善し、コスト分析と管理を容易にします
+        * チームを率いて 2014 年に WebAPI サーバーを設計と実装し、JavaScript と　Objective-C (iOS) 用のクライアントライブラリ生成機能を C# で作成します。これにより、サーバーは 3 年半安定します
+        * 2017 年には、Python を使用し、キャッシュ機能を備えた SQL コマンドのサポートを提供して、内部サーバーの開発能力を向上させ、サーバーを再起動せずに SQL コマンドをリアルタイムで変更する機能を提供します
+        * ビジネスロジックを WebAPI サーバーに統合して、Windows と Web アプリケーションの管理を改善します
+        * WebAPI サーバーに中央管理ツールを提供し、開発者がドキュメントを直接テストして読むことができるようにします
+        * WebAPI サーバーで文字コード変換サービスを提供し、iconv を使用し、CNS11643 比較表を参照して、BIG5 と UTF-8 作成領域の文字を変換します
+        * Docker コンテナを使用してサーバーをマイクロサービスアーキテクチャに分割する
+        * Linux アーキテクチャで統合された Nginx Web サーバーと uWSGI プロキシサービスは、Python ベースの WebAPI サーバーとユーザー間の通信の最適化を提供するために使用されます
+        * すべてのプロジェクトで CI / CD プロセスを使用して、WebAPI サーバーを管理し、ソフトウェアのセキュリティと品質を管理します
+        * コードレビューを導入して、すべてのコードマージ要求を管理し、ソフトウェアの品質を向上させます
+        * フロントエンドとバックエンドのテクノロジーを研究しながら、同僚に関連する開発経験とアドバイス、トレーニングコースを提供します
+        * パフォーマンスの低い SQL コマンドを見つけ、Oracle と PostgreSQL データベースの構造とコマンドを使用してこれらの問題を書き直して最適化します
+        * [testssl.sh](https://testssl.sh) を使用して、サービスを提供するすべてのサーバーの互換性とセキュリティを確認し、対応する管理レポートを生成します
+        * モバイルデバイス管理 (MDM) サーバーを展開して、180 を超える iOS デバイスを管理し、プリロードされたエンタープライズバージョンのアプリを提供します
     - position: システム管理者 (パートタイム)
       company: 国立台北護理健康大学情報管理学科
       dates: 2011-07 - 2013-07
@@ -95,9 +95,9 @@ jobs:
       dates: 2007-07 - 2009-09
       location: 台湾台北
       details: |
-        PHP、MySQL、IBM DB2を使用して、入院患者情報用の統合医療情報システム（HIS）を設計および開発します。
+        PHP、MySQL、IBM DB2 を使用して、入院患者情報用の統合医療情報システム (HIS) を設計と開発します。
 
-        (このシステムは後に「iMMISシステム」改名されます、と2013年の全国バイオテクノロジーおよび医療品質賞のブロンズメダルを受賞しました)
+        (このシステムは後に「iMMIS システム」改名されます、2013 年の全国バイオテクノロジーと医療品質賞のブロンズメダルを受賞しました)
     - position: ソリューション開発者
       company: CPRTeam (線路組)
       dates: 2011-08 - 2017-06
@@ -105,7 +105,7 @@ jobs:
       details: |
         会議に 500 ~ 1500 人以上の参加者を収容できるワイヤレスネットワークを設定する
 
-        * TICC の COSCUP 2013 で 1,400 人を超える参加者にネットワークサービスを提供し、不十分なハードウェア環境で使用してから15分以内に36台の仮想マシン（m0n0wallソフトルーティングを使用）と36の異なる設定環境を展開します
+        * TICC の COSCUP 2013 で 1,400 人を超える参加者にネットワークサービスを提供し、不十分なハードウェア環境で使用してから 15 分以内に 36 台の仮想マシン (m0n0wall ソフトルーティングを使用) と 36 の異なる設定環境を展開します
         * 無線資産管理システムなどのオープンソースプロジェクトのカタログを開きます。[CPRTeam の関連プロジェクト](https://github.com/CPRTeam)を参照してください。
 projects:
   enable: true
@@ -115,7 +115,7 @@ projects:
     - title: 私自身の結婚式の招待状のページ
       url: https://kutt.it/tea-fish
       tagline: |
-        Vuetify フレームワークを使用して、インターネットからダウンロードしたテンプレートを変更および構築して 1 ページの Web サイトを作成し、プリ出力の 4K 解像度の 3D MP4 アニメーションをバックグラウンドで再生します
+        Vuetify フレームワークを使用して、インターネットからダウンロードしたテンプレートを変更と構築して 1 ページの Web サイトを作成し、プリ出力の 4K 解像度の 3D MP4 アニメーションをバックグラウンドで再生します
     - title: OPass アプリ (CCIP パス) 開発者
       url: https://github.com/CCIP-App
       tagline: |
@@ -133,12 +133,12 @@ education:
       dates: 2011 - 2013
       details: |
         * 医療情報とソフトウェア開発の研究
-        * HL7 (Health Level 7) の CDA® R2 (臨床文書フレームワーク第2版) XML ファイルを HTML5 キャンバスに読み取るためのテンプレート管理システムを研究および開発し、Web コンポーネントテクノロジーを使用して WYSIWYG (表示されるものが取得されるもの) 編集機能を提供します
+        * HL7 (Health Level 7) の CDA® R2 (臨床文書フレームワーク第2版) XML ファイルを HTML5 キャンバスに読み取るためのテンプレート管理システムを研究と開発し、Web コンポーネントテクノロジーを使用して WYSIWYG (表示されるものが取得されるもの) 編集機能を提供します
     - college: |
         慈済技術学校
 
         慈済科技大学 (2015年に改名)
-      degree: 情報工学および情報学科の学士号
+      degree: 情報工学と情報学科の学士号
       dates: 2007 - 2011
       details: |
         * ソフトウェア開発と RFID 関連ソフトウェア開発の研究
