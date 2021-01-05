@@ -23,6 +23,17 @@ language:
       level: 中級レベル
     - language: 日本語
       level: 初級レベル
+summary:
+  enable: true
+  icon: fa-user
+  summary: |
+    非常に経験豊富な人：バックエンド開発、モバイルデバイス開発、IT管理
+
+    - Golang/Python 開発
+    - ネットワーク管理
+    - DevOps CI/CD
+    - コンテナ管理
+    - Kubernates 管理
 jobs:
   list:
     - position: システムエンジニア

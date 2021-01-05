@@ -23,6 +23,17 @@ language:
       level: 讀 / 寫 / 說
     - language: 日文
       level: 讀 / 寫 / 說
+summary:
+  enable: true
+  icon: fa-user
+  summary: |
+    一個對於後端開發、行動裝置開發和 IT 管理非常有經驗的傢伙
+
+    - Golang/Python 開發
+    - 網路管理
+    - DevOps CI/CD
+    - 容器管理
+    - Kubernates 管理
 jobs:
   list:
     - position: 系統工程師

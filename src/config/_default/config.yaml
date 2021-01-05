@@ -60,10 +60,6 @@ params:
         icon: fa-twitter
         url: //twitter.com/haraguroicha
         title: "@haraguroicha"
-  summary:
-    enable: false
-    icon: fa-user
-    summary: ""
   experiences:
     enable: true
     icon: fa-briefcase
