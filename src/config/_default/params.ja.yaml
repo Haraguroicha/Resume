@@ -18,11 +18,11 @@ language:
   enable: true
   list:
     - language: 中国語
-      level: 母国語
+      level: ネイティブ
     - language: 英語
-      level: 読む/書く/話す
+      level: 中級レベル
     - language: 日本語
-      level: 読む/書く/話す
+      level: 初級レベル
 jobs:
   list:
     - position: システムエンジニア
