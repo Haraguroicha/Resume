@@ -38,7 +38,7 @@ jobs:
   list:
     - position: Systems Engineer
       company: TeamT5 Inc.
-      dates: 2018-08 - Present
+      dates: 2018-08 - 2021-03
       location: Taipei, Taiwan
       details: |
         Manage private Virtual Machine Farms (VMF), office networking, infrastructures and service reliability. Re-design/Relocate the server room layout to save the energy waste, and manage.
