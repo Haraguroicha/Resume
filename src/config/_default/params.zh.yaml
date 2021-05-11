@@ -31,11 +31,18 @@ summary:
 
     - Golang/Python 開發
     - 網路管理
+      - 使用 [AS212359](https://bgp.he.net/AS212359) 做 BGP Peering/Transit
     - DevOps CI/CD
     - 容器管理
     - Kubernates 管理
 jobs:
   list:
+    - position: 技術長, 共同創辦人
+      company: Walks Cloud Inc. (行雲資訊有限公司)
+      dates: 2021-03 - Present
+      location: 台灣台北
+      details: |
+        MIS 服務外包承接，客戶辦公室網路規劃建置與建構，資訊設備資產盤點與管理
     - position: 系統工程師
       company: TeamT5 Inc. (杜浦數位安全有限公司)
       dates: 2018-08 - 2021-03

@@ -31,11 +31,18 @@ summary:
 
     - Golang/Python Developement
     - Networking Management
+      - BGP Peering/Transit with [AS212359](https://bgp.he.net/AS212359)
     - DevOps CI/CD
     - Container management
     - Kubernates management
 jobs:
   list:
+    - position: CTO, Co-Founder
+      company: Walks Cloud Inc.
+      dates: 2021-03 - Present
+      location: Taipei, Taiwan
+      details: |
+        MIS Outsourcing undertake, build customer premises network planning and construction, information equipment inventory and asset management
     - position: Systems Engineer
       company: TeamT5 Inc.
       dates: 2018-08 - 2021-03

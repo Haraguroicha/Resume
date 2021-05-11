@@ -31,11 +31,18 @@ summary:
 
     - Golang/Python 開発
     - ネットワーク管理
+      - [AS212359](https://bgp.he.net/AS212359)をBGPピアリング/トランジット使用します
     - DevOps CI/CD
     - コンテナ管理
     - Kubernates 管理
 jobs:
   list:
+    - position: 最高技術責任者, 共同創設者
+      company: Walks Cloud Inc.
+      dates: 2021-03 - Present
+      location: 台湾台北
+      details: |
+        情報システムアウトソーシング業務の請負業者、客先会社のネットワークの設計・構築、情報機器の固定資産棚卸と管理
     - position: システムエンジニア
       company: TeamT5 Inc.
       dates: 2018-08 - 2021-03
