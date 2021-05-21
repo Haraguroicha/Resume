@@ -16,24 +16,48 @@ server {
         internal;
     }
 
-    location /en/ {
+    location ~* /en/(?<page>.*)$ {
         if ($lang ~* en) {
+            set $r "1";
+        }
+        set $rp "1";
+        if ($page ~* peering) {
+            set $rp "0";
+        }
+        set $r "${r}${rp}";
+        if ($r ~* "11") {
             return 302 /;
         }
     }
-    location /zh/ {
+    location ~* /zh/(?<page>.*)$ {
         if ($lang ~* zh) {
+            set $r "1";
+        }
+        set $rp "1";
+        if ($page ~* peering) {
+            set $rp "0";
+        }
+        set $r "${r}${rp}";
+        if ($r ~* "11") {
             return 302 /;
         }
     }
-    location /ja/ {
+    location ~* /ja/(?<page>.*)$ {
         if ($lang ~* ja) {
+            set $r "1";
+        }
+        set $rp "1";
+        if ($page ~* peering) {
+            set $rp "0";
+        }
+        set $r "${r}${rp}";
+        if ($r ~* "11") {
             return 302 /;
         }
     }
 
     location = /peering {
-        try_files /$lang/$uri /$lang/peering /en/$uri /en/$uri/ /en/peering;
+        try_files /$lang$uri /en$uri /en$uri/ /en/peering/;
     }
 
     location = / {
