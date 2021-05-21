@@ -93,6 +93,9 @@ $sectionLine: 2px solid gray;
         }
     }
     .main-wrapper {
+        & .printable-info {
+            display: none;
+        }
         & .section {
             & .section-title {
                 margin: 10px 0 5px;

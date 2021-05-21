@@ -40,6 +40,11 @@ a {
 }
 
 .main-wrapper {
+    & .printable-info {
+        margin: -60px -35px 50px -65px;
+        padding: 5px 0;
+        text-align: center;
+    }
     & .experiences-section .item .meta {
         & .location {
             float: right;
