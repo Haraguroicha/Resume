@@ -1,39 +1,45 @@
-            <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa {{ .Site.Params.experiences.icon }}"></i>{{ i18n "experiences" }}</h2>
-
-                {{ range .Site.Params.jobs.list }}
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">{{ .position }}</h3>
-                            <div class="time">
-                                {{- $dates := split .dates " - " -}}
-                                {{- $dateFrom := index ($dates) 0 -}}
-                                {{- $dateTo := index ($dates) 1 -}}
-                                {{- $dateToStr := $dateTo -}}
-                                {{- if eq (lower $dateTo) "present" -}}
-                                    {{- $dateToStr = now.Format "2006-01" -}}
-                                {{- end -}}
-                                {{- $nextToFirstDate := split $dateToStr "-" -}}
-                                {{- $nextTo := (printf "%s-%02d" (index ($nextToFirstDate) 0) (add (int ((index ($nextToFirstDate) 1) | strings.TrimLeft "0")) 1)) -}}
-                                {{- $dateUFrom := ((print $dateFrom "-01T00:00:00Z") | time).Unix -}}
-                                {{- $dateUTo := ((print $nextTo "-01T23:59:59Z") | time).Unix -}}
-                                {{- $yrs := div (sub $dateUTo $dateUFrom) 31536000 -}}
-                                {{- $mos := sub (div (sub $dateUTo $dateUFrom) 2628000) (mul $yrs 12) -}}
-                                {{ ((print $dateFrom "-01T00:00:00Z") | time).Format "Jan. 2006" }} - {{ if eq (lower $dateTo) "present" }}{{ i18n $dateTo }}{{ else }}{{ ((print $dateToStr "-01T00:00:00Z") | time).Format "Jan. 2006" }}{{ end }}
-                                (
-                                    {{- if (gt $yrs 0) }}{{ $yrs }} {{ cond (eq $yrs 1) "yr" "yrs" }} {{ end -}}
-                                    {{- $mos }} {{ cond (eq $mos 1) "mo" "mos" -}}
-                                )
-                            </div>
-                        </div><!--//upper-row-->
-                        <span class="company">{{ .company }}</span>
-                        <span class="location">{{ .location }}</span>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                {{ end }}
-
-            </section><!--//section-->
+<section class="section experiences-section">
+    <h2 class="section-title"><i class="fa {{ .Site.Params.experiences.icon }}"></i>{{ i18n "experiences" }}</h2>
+    {{- range .Site.Params.jobs.list }}
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="job-title">{{ .position }}</h3>
+                <div class="time">
+                    {{- $dates := split .dates " - " -}}
+                    {{- $dateFrom := index ($dates) 0 -}}
+                    {{- $dateTo := index ($dates) 1 -}}
+                    {{- $dateToStr := $dateTo -}}
+                    {{- if eq (lower $dateTo) "present" -}}
+                        {{- $dateToStr = now.Format "2006-01" -}}
+                    {{- end -}}
+                    {{- $nextToFirstDate := split $dateToStr "-" -}}
+                    {{- $nextTo := (printf "%s-%02d" (index ($nextToFirstDate) 0) (add (int ((index ($nextToFirstDate) 1) | strings.TrimLeft "0")) 1)) -}}
+                    {{- $dateUFrom := ((print $dateFrom "-01T00:00:00Z") | time).Unix -}}
+                    {{- $dateUTo := ((print $nextTo "-01T23:59:59Z") | time).Unix -}}
+                    {{- $yrs := div (sub $dateUTo $dateUFrom) 31536000 -}}
+                    {{- $mos := sub (div (sub $dateUTo $dateUFrom) 2628000) (mul $yrs 12) -}}
+                    {{- ((print $dateFrom "-01T00:00:00Z") | time).Format "Jan. 2006" -}}
+                    {{- " - " -}}
+                    {{- if eq (lower $dateTo) "present" -}}
+                        {{- i18n $dateTo -}}
+                    {{- else -}}
+                        {{- ((print $dateToStr "-01T00:00:00Z") | time).Format "Jan. 2006" -}}
+                    {{- end -}}
+                    {{- " " -}}
+                    (
+                        {{- if (gt $yrs 0) }}{{ $yrs }} {{ cond (eq $yrs 1) "yr" "yrs" }} {{ end -}}
+                        {{- $mos }} {{ cond (eq $mos 1) "mo" "mos" -}}
+                    )
+                    {{- "" -}}
+                </div>
+            </div><!--//upper-row-->
+            <span class="company">{{ .company }}</span>
+            <span class="location">{{ .location }}</span>
+        </div><!--//meta-->
+        <div class="details">
+            <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
+        </div><!--//details-->
+    </div><!--//item-->
+    {{- end }}
+</section><!--//section-->

@@ -1,19 +1,19 @@
-            <section class="education-section section">
-                <h2 class="section-title"><i class="fa {{ .Site.Params.education.icon }}"></i>{{ T "education" }}</h2>
-                <div class="educationset">
-                {{ range .Site.Params.education.list }}
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="degree">{{ .degree | markdownify }}</h3>
-                            <div class="time">{{ .dates }}</div>
-                        </div><!--//upper-row-->
-                        <div class="college">{{ .college | markdownify }}</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                {{ end }}
-                </div>
-            </section><!--//education-section-->
+<section class="education-section section">
+    <h2 class="section-title"><i class="fa {{ .Site.Params.education.icon }}"></i>{{ T "education" }}</h2>
+    <div class="educationset">
+    {{- range .Site.Params.education.list }}
+    <div class="item">
+        <div class="meta">
+            <div class="upper-row">
+                <h3 class="degree">{{ .degree | markdownify }}</h3>
+                <div class="time">{{ .dates }}</div>
+            </div><!--//upper-row-->
+            <div class="college">{{ .college | markdownify }}</div>
+        </div><!--//meta-->
+        <div class="details">
+            <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
+        </div><!--//details-->
+    </div><!--//item-->
+    {{- end }}
+    </div>
+</section><!--//education-section-->

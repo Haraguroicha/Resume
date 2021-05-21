@@ -1,18 +1,18 @@
-            <div class="contact-container container-block" style="padding-right: 0;">
-                <ul class="list-unstyled contact-list">
-                {{ range .Site.Params.contact.list }}
-                    <li class="{{ .class }}"><i class="fa {{ .icon }}"></i><a href="{{ .url | safeURL }}">{{ .title }}</a></li>
-                {{ end }}
-                {{ with $.Site.Data.rev }}
-                    {{ $git := . }}
-                    <li class="rev">
-                        <i class="fa fa-code-fork"></i>
-                        <a href="{{ $.Site.Params.githubBase | safeURL }}/commit/{{ $git.AbbreviatedHash }}">
-                            <span class="hash">#{{ $git.AbbreviatedHash }} (</span>
-                            {{- dateFormat "2006-01-02" now -}}
-                            <span class="hash"> GMT+8)</span>
-                        </a>
-                    </li>
-                {{ end }}
-                </ul>
-            </div><!--//contact-container-->
+<div class="contact-container container-block" style="padding-right: 0;">
+    <ul class="list-unstyled contact-list">
+    {{- range .Site.Params.contact.list }}
+        <li class="{{ .class }}"><i class="fa {{ .icon }}"></i><a href="{{ .url | safeURL }}">{{- .title }}</a></li>
+    {{- end }}
+    {{- with $.Site.Data.rev }}
+        {{ $git := . }}
+        <li class="rev">
+            <i class="fa fa-code-fork"></i>
+            <a href="{{ $.Site.Params.githubBase | safeURL }}/commit/{{ $git.AbbreviatedHash }}">
+                <span class="hash">#{{- $git.AbbreviatedHash }} (</span>
+                {{- dateFormat "2006-01-02" now -}}
+                <span class="hash"> GMT+8)</span>
+            </a>
+        </li>
+    {{- end }}
+    </ul>
+</div><!--//contact-container-->
