@@ -31,6 +31,10 @@
     {{ partial "education.html" . }}
     {{ end }}
 
+    {{ if .Site.Params.peering.enable }}
+    {{ partial "peering.html" . }}
+    {{ end }}
+
 	</div><!--//main-body-->
     </div>
 

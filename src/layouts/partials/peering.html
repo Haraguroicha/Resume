@@ -1,0 +1,68 @@
+<section class="peering-section section">
+    <h2 class="section-title"><a name="peering"><i class="fa {{ .Site.Params.peering.icon }}"></i></a>{{ T "peering" }}</h2>
+    <div class="peering-info">
+        <h3 class="section-subtitle">Information</h3>
+        {{- range .Site.Params.peering.info }}
+        Here is <a href="{{- .db }}" target="_blank">{{- .name }} (AS{{- .num }})</a> Peering Infomations:
+        <ul>
+            <li>ASN: <code>AS{{- .num }}</code> ({{- .name }})</li>
+            <li>Policy: {{- .policy }}</li>
+            {{- range (index . "as-set") }}
+            <li>AS-SET: <code>{{- . }}</code></li>
+            {{- end }}
+            {{- range .prefix }}
+            <li>inet: <code>{{- . }}</code></li>
+            {{- end }}
+            {{- range .prefix6 }}
+            <li>inet6: <code>{{- . }}</code></li>
+            {{- end }}
+        </ul>
+        {{- end }}
+        <h3 class="section-subtitle">Locations</h3>
+        {{- if gt (len .Site.Params.peering.locations) 0 }}
+        <table class="peering-location">
+            <tr>
+                <th>Origin</th>
+                <th>Port</th>
+                <th>Services</th>
+            </tr>
+        {{- range .Site.Params.peering.locations }}
+            <tr>
+                <td>{{- .origin }}</td>
+                <td>{{- .port }}</td>
+                <td>
+                    <ul class="service-item">
+                    {{- range .services }}
+                    <li>{{- . }}</li>
+                    {{- end }}
+                    </ul>
+                </td>
+            </tr>
+        {{- end }}
+        </table>
+        {{- end }}
+        <h3 class="section-subtitle">IX</h3>
+        {{- if gt (len .Site.Params.peering.ix) 0 }}
+        <table class="peering-ix">
+            <tr>
+                <th>IXP</th>
+                <th>Port</th>
+                <th>Addresses</th>
+            </tr>
+        {{- range .Site.Params.peering.ix }}
+            <tr>
+                <td><a href="{{- .db }}" target="_blank">{{- .ixp }}</a></td>
+                <td>{{- .port }}</td>
+                <td>
+                    <ul class="addr-item">
+                    {{- range .addr }}
+                    <li><code>{{- . }}</code></li>
+                    {{- end }}
+                    </ul>
+                </td>
+            </tr>
+        {{- end }}
+        </table>
+        {{- end }}
+    </div>
+</section><!--//peering-section-->

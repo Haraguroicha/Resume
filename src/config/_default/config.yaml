@@ -18,6 +18,52 @@ languages:
     weight: 3
 
 params:
+  peering:
+    enable: true
+    icon: fa-globe
+    info:
+      - num: 212369
+        name: Haraguroicha Internet Service
+        db: https://www.peeringdb.com/net/25619
+        as-set:
+          - AS-HARAGUROICHA
+        policy: Open
+        prefix6:
+          - 2a0e:8f02:f00e::/48
+          - 2a0e:b107:1340::/44
+          - 2a0f:607:1024::/48
+          - 2602:feda:c10::/44
+    locations:
+      - origin: New Taipei, TW
+        port: 100Mbps
+        services:
+          - WireGuard
+          - GRE
+          - IPSec
+      - origin: Taipei, TW
+        port: 1Gbps
+        services:
+          - WireGuard
+          - GRE
+          - IPSec
+      - origin: Taichung, TW
+        port: 100Mbps
+        services:
+          - GRE
+          - IPSec
+      - origin: Tokyo, JP
+        port: 10Gbps
+        services:
+          - WireGuard
+          - GRE
+          - IPSec
+    ix:
+      - ixp: STUIX
+        db: https://www.peeringdb.com/ix/3352
+        port: 1Gbps
+        addr:
+          - 103.158.187.22
+          - 2a0f:5707:ffe3::22
   githubBase: https://github.com/Haraguroicha/Resume
   author: 腹黒い茶
   fb:

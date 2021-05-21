@@ -57,6 +57,68 @@ a {
             background-color: $mainColor;
         }
     }
+    & .section-subtitle {
+        color: $mainColor;
+        font-size: 20px;
+        border: transparentize($mainColor, .2) solid 1px;
+        border-left: transparentize($mainColor, .2) solid 3px;
+        border-radius: 5px;
+        padding: 2px 8px 2px 8px;
+        background-color: transparentize($mainColor, .9);
+    }
+    & .peering-info {
+        padding-left: 30px;
+        & .peering-location {
+            width: 100%;
+            & tr:first-of-type {
+                border-bottom: transparentize($mainColor, .2) solid 2px;
+                & th:nth-child(1) {
+                    width: 30%;
+                }
+                & th:nth-child(2) {
+                    width: 20%;
+                }
+                & th:nth-child(3) {
+                    width: 50%;
+                }
+            }
+            & tr:nth-child(odd):not(:first-of-type) {
+                background-color: transparentize($mainColor, .95);
+            }
+            & tr:nth-child(even):not(:first-of-type) {
+                background-color: transparentize($mainColor, .9);
+            }
+            & .service-item {
+                padding-inline-start: 20px;
+                margin-bottom: 0;
+            }
+        }
+        & .peering-ix {
+            width: 100%;
+            & tr:first-of-type {
+                border-bottom: transparentize($mainColor, .2) solid 2px;
+                & th:nth-child(1) {
+                    width: 30%;
+                }
+                & th:nth-child(2) {
+                    width: 20%;
+                }
+                & th:nth-child(3) {
+                    width: 50%;
+                }
+            }
+            & tr:nth-child(odd):not(:first-of-type) {
+                background-color: transparentize($mainColor, .95);
+            }
+            & tr:nth-child(even):not(:first-of-type) {
+                background-color: transparentize($mainColor, .9);
+            }
+            & .addr-item {
+                padding-inline-start: 20px;
+                margin-bottom: 0;
+            }
+        }
+    }
     & .educationset .meta {
         & .degree {
             color: $sectionTitleColor;
