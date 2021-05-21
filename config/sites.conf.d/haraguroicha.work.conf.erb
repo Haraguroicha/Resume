@@ -33,7 +33,7 @@ server {
     }
 
     location = /peering {
-        return 302 /#peering;
+        try_files /$lang/$uri /$lang/peering /en/$uri /en/$uri/ /en/peering;
     }
 
     location = / {
