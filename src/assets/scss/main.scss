@@ -88,7 +88,7 @@ a {
                 }
             }
             & tr:nth-child(odd):not(:first-of-type) {
-                background-color: transparentize($mainColor, .95);
+                background-color: transparent;
             }
             & tr:nth-child(even):not(:first-of-type) {
                 background-color: transparentize($mainColor, .9);
@@ -113,7 +113,7 @@ a {
                 }
             }
             & tr:nth-child(odd):not(:first-of-type) {
-                background-color: transparentize($mainColor, .95);
+                background-color: transparent;
             }
             & tr:nth-child(even):not(:first-of-type) {
                 background-color: transparentize($mainColor, .9);
