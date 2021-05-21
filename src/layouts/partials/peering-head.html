@@ -30,8 +30,8 @@
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css" />
 
     <!-- Theme CSS -->
-    {{- $main := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS | minify | fingerprint -}}
-    {{- $print := resources.Get "scss/print.scss" | resources.ExecuteAsTemplate "print.scss" . | toCSS | minify | fingerprint -}}
+    {{- $main := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main-peering.scss" . | toCSS | minify | fingerprint -}}
+    {{- $print := resources.Get "scss/print.scss" | resources.ExecuteAsTemplate "print-peering.scss" . | toCSS | minify | fingerprint -}}
     <link rel="stylesheet" href=".{{ $main.RelPermalink }}" integrity="{{ $main.Data.Integrity }}" media="screen">
     <link rel="stylesheet" href=".{{ $print.RelPermalink }}" integrity="{{ $print.Data.Integrity }}" media="print">
     <!--<link id="theme-style" rel="stylesheet" href="assets/css/{{ .Site.Params.styles }}">-->
