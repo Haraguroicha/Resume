@@ -116,6 +116,9 @@ $sectionLine: 2px solid gray;
                 }
             }
         }
+        & .peering-section {
+            display: none;
+        }
         & .educationset .meta {
             & .degree {
                 display: inline-block;
