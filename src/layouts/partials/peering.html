@@ -3,18 +3,18 @@
     <div class="peering-info">
         <h3 class="section-subtitle">Information</h3>
         {{- range .Site.Params.peering.info }}
-        Here is <a href="{{- .db }}" target="_blank">{{- .name }} (AS{{- .num }})</a> Peering Infomations:
+        Here is <a href="{{ .db }}" target="_blank">{{ .name }} (AS{{ .num }})</a> Peering Infomations:
         <ul>
-            <li>ASN: <code>AS{{- .num }}</code> ({{- .name }})</li>
-            <li>Policy: {{- .policy }}</li>
+            <li>ASN: <code>AS{{ .num }}</code> ({{ .name }})</li>
+            <li>Policy: {{ .policy }}</li>
             {{- range (index . "as-set") }}
-            <li>AS-SET: <code>{{- . }}</code></li>
+            <li>AS-SET: <code>{{ . }}</code></li>
             {{- end }}
             {{- range .prefix }}
-            <li>inet: <code>{{- . }}</code></li>
+            <li>inet: <code>{{ . }}</code></li>
             {{- end }}
             {{- range .prefix6 }}
-            <li>inet6: <code>{{- . }}</code></li>
+            <li>inet6: <code>{{ . }}</code></li>
             {{- end }}
         </ul>
         {{- end }}
@@ -28,12 +28,12 @@
             </tr>
         {{- range .Site.Params.peering.locations }}
             <tr>
-                <td>{{- .origin }}</td>
-                <td>{{- .port }}</td>
+                <td>{{ .origin }}</td>
+                <td>{{ .port }}</td>
                 <td>
                     <ul class="service-item">
                     {{- range .services }}
-                    <li>{{- . }}</li>
+                    <li>{{ . }}</li>
                     {{- end }}
                     </ul>
                 </td>
@@ -51,12 +51,12 @@
             </tr>
         {{- range .Site.Params.peering.ix }}
             <tr>
-                <td><a href="{{- .db }}" target="_blank">{{- .ixp }}</a></td>
-                <td>{{- .port }}</td>
+                <td><a href="{{ .db }}" target="_blank">{{ .ixp }}</a></td>
+                <td>{{ .port }}</td>
                 <td>
                     <ul class="addr-item">
                     {{- range .addr }}
-                    <li><code>{{- . }}</code></li>
+                    <li><code>{{ . }}</code></li>
                     {{- end }}
                     </ul>
                 </td>
