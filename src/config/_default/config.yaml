@@ -22,11 +22,11 @@ params:
     enable: true
     icon: fa-globe
     description: |
-      Peering with AS212369 (Haraguroicha Internet Service)
+      Peering with AS212359 (Haraguroicha Internet Service)
 
       You can contact me with @Haraguroicha in Telegram
     info:
-      - num: 212369
+      - num: 212359
         name: Haraguroicha Internet Service
         db: https://www.peeringdb.com/net/25619
         as-set:
