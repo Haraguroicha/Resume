@@ -17,6 +17,7 @@ server {
     }
 
     location ~* /en/(?<page>.*)$ {
+        set $r "0";
         if ($lang ~* en) {
             set $r "1";
         }
@@ -30,6 +31,7 @@ server {
         }
     }
     location ~* /zh/(?<page>.*)$ {
+        set $r "0";
         if ($lang ~* zh) {
             set $r "1";
         }
@@ -43,6 +45,7 @@ server {
         }
     }
     location ~* /ja/(?<page>.*)$ {
+        set $r "0";
         if ($lang ~* ja) {
             set $r "1";
         }
