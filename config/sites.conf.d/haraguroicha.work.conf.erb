@@ -1,0 +1,71 @@
+server {
+    listen <%= ENV["PORT"] %>;
+    server_name haraguroicha.work *.haraguroicha.work;
+    keepalive_timeout 5;
+    client_max_body_size <%= ENV['NGINX_CLIENT_MAX_BODY_SIZE'] || 1 %>M;
+
+    root /app/public; # path to your app
+
+    error_page 404 451 /en/404.html;
+    location = /en/404.html {
+        internal;
+    }
+
+    error_page 500 502 503 504 /en/50x.html;
+    location = /en/50x.html {
+        internal;
+    }
+
+    location ~* /en/(?<page>.*)$ {
+        set $r "0";
+        if ($lang ~* en) {
+            set $r "1";
+        }
+        set $rp "1";
+        if ($page ~* peering) {
+            set $rp "0";
+        }
+        set $r "${r}${rp}";
+        if ($r ~* "11") {
+            return 302 /;
+        }
+    }
+    location ~* /zh/(?<page>.*)$ {
+        set $r "0";
+        if ($lang ~* zh) {
+            set $r "1";
+        }
+        set $rp "1";
+        if ($page ~* peering) {
+            set $rp "0";
+        }
+        set $r "${r}${rp}";
+        if ($r ~* "11") {
+            return 302 /;
+        }
+    }
+    location ~* /ja/(?<page>.*)$ {
+        set $r "0";
+        if ($lang ~* ja) {
+            set $r "1";
+        }
+        set $rp "1";
+        if ($page ~* peering) {
+            set $rp "0";
+        }
+        set $r "${r}${rp}";
+        if ($r ~* "11") {
+            return 302 /;
+        }
+    }
+
+    location = /peering {
+        try_files /$lang$uri /en$uri /en$uri/ /en/peering/;
+    }
+
+    location = / {
+        try_files /$lang/$uri /$lang/index.html /en/$uri /en/$uri/ /en/index.html;
+    }
+
+    include locations.conf;
+}
