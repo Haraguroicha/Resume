@@ -33,6 +33,7 @@ summary:
     - DevOps CI/CD
     - Container management
     - Kubernates management
+    - Ham Radio amateur player with callsign `BM2OEH`
 jobs:
   list:
     - position: CTO, Co-Founder

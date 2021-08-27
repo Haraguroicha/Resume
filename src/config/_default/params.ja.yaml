@@ -33,6 +33,7 @@ summary:
     - DevOps CI/CD
     - コンテナ管理
     - Kubernates 管理
+    - アマチュア無線プレーヤー (コールサイン `BM2OEH`)
 jobs:
   list:
     - position: 最高技術責任者, 共同創設者
