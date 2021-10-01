@@ -37,6 +37,7 @@ params:
           - 2a0e:b107:1340::/44
           - 2a0f:607:1024::/48
           - 2602:feda:c10::/44
+          - 2602:fc23:111::/48
         contact:
           name: 腹黒い茶
           url: https://t.me/Haraguroicha
