@@ -49,7 +49,7 @@ params:
           - GRE
           - IPSec
       - origin: Taipei, TW
-        port: 1Gbps
+        port: 100Mbps
         services:
           - WireGuard
           - GRE
@@ -65,13 +65,30 @@ params:
           - WireGuard
           - GRE
           - IPSec
+      - origin: Fremont, US
+        port: 1Gbps
+        services:
+          - direct in LL-IX
+          - direct in Lambda Internet Exchange
     ix:
       - ixp: STUIX
-        db: https://www.peeringdb.com/ix/3352
+        db: https://peeringdb.com/ix/3352
         port: 1Gbps
         addr:
           - 103.158.187.22
           - 2a0f:5707:ffe3::22
+      - ixp: LL-IX
+        db: https://peeringdb.com/ix/2343
+        port: 1Gbps
+        addr:
+          - 5.101.92.218
+          - 2001:678:4fc::92:218
+      - ixp: Lambda Internet Exchange
+        db: https://peeringdb.com/ix/3634
+        port: 1Gbps
+        addr:
+          - 23.191.16.7
+          - 2a0f:607:1070::7
   githubBase: https://github.com/Haraguroicha/Resume
   author: 腹黒い茶
   fb:
