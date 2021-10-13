@@ -8,132 +8,142 @@
     }
 }
 
-.wrapper {
-    border-radius: 20px;
-    overflow: auto;
-    box-shadow: grey 5px 5px 20px;
-}
+body {
+    color: var(--font-color);
+    background: var(--bg-color);
 
-.profile-container .tagline ul {
-    list-style-type: square;
-    padding-left: 35px;
-
-    & li {
-        text-align: left;
-    }
-}
-
-.sidebar-wrapper {
-    background-color: $mainColor;
-
-    & .name {
-        font-size: 28px;
-    }
-    & .list-unstyled.contact-list i.fa {
-        text-align: center;
-        width: 18px;
-    }
-}
-
-a {
-    color: $mainColor;
-}
-
-.main-wrapper {
-    & .printable-info {
-        margin: -60px -35px 50px -65px;
-        padding: 5px 0;
-        text-align: center;
-    }
-    & .experiences-section .item .meta {
-        & .location {
-            float: right;
-        }
-        & .time, & .company, & .location {
-            color: $infoColor;
-            display: inline-block;
-            margin-bottom: 10px;
+    a {
+        color: var(--link-color);
+        &:hover {
+            color: var(--link-hov-color);
         }
     }
-    & .section-title {
-        color: $mainColor;
 
-        & .fa {
-            background-color: $mainColor;
+    & .wrapper {
+        border-radius: 20px;
+        overflow: auto;
+        box-shadow: var(--shadow-color) 5px 5px 20px;
+    }
+
+    .profile-container .tagline ul {
+        list-style-type: square;
+        padding-left: 35px;
+
+        & li {
+            text-align: left;
         }
     }
-    & .section-subtitle {
-        color: $mainColor;
-        font-size: 20px;
-        border: transparentize($mainColor, .2) solid 1px;
-        border-left: transparentize($mainColor, .2) solid 3px;
-        border-radius: 5px;
-        padding: 2px 8px 2px 8px;
-        background-color: transparentize($mainColor, .9);
+
+    .sidebar-wrapper {
+        background-color: var(--main-color);
+        & .name {
+            font-size: 28px;
+        }
+        & .list-unstyled.contact-list i.fa {
+            text-align: center;
+            width: 18px;
+        }
     }
-    & .peering-info {
-        padding-left: 30px;
-        & .peering-location {
-            width: 100%;
-            & tr:first-of-type {
-                border-bottom: transparentize($mainColor, .2) solid 2px;
-                & th:nth-child(1) {
-                    width: 30%;
-                }
-                & th:nth-child(2) {
-                    width: 20%;
-                }
-                & th:nth-child(3) {
-                    width: 50%;
-                }
+
+    .main-wrapper {
+        background: var(--main-wrapper-bg-color);
+        & .section-title {
+            color: var(--header-color);
+            & .fa {
+                background-color: var(--header-color);
             }
-            & tr:nth-child(odd):not(:first-of-type) {
-                background-color: transparent;
+        }
+        & .printable-info {
+            margin: -60px -35px 50px -65px;
+            padding: 5px 0;
+            text-align: center;
+        }
+        & .experiences-section .meta {
+            & .location {
+                float: right;
             }
-            & tr:nth-child(even):not(:first-of-type) {
-                background-color: transparentize($mainColor, .9);
+            & .job-title {
+                color: var(--section-title-color);
             }
-            & .service-item {
-                padding-inline-start: 20px;
+            & .time, & .company, & .location {
+                color: var(--section-title-darker-color);
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+        }
+        & .educationset .meta {
+            & .degree {
+                color: var(--section-title-color);
+                font-size: 16px;
+                margin-top: 0;
                 margin-bottom: 0;
+                font-weight: 500;
+            }
+            & .college {
+                color: var(--section-title-darker-color);
             }
         }
-        & .peering-ix {
-            width: 100%;
-            & tr:first-of-type {
-                border-bottom: transparentize($mainColor, .2) solid 2px;
-                & th:nth-child(1) {
-                    width: 30%;
+        & .peering-info {
+            padding-left: 30px;
+            & .section-subtitle {
+                color: var(--header-color);
+                border: var(--header-darker-color) solid 1px;
+                border-left: var(--header-darker-color) solid 3px;
+                background-color: var(--header-lighter-color);
+                font-size: 20px;
+                border-radius: 5px;
+                padding: 2px 8px 2px 8px;
+            }
+            & .peering-location {
+                width: 100%;
+                & tr:first-of-type {
+                    border-bottom: var(--header-darker-color) solid 2px;
+                    & th:nth-child(1) {
+                        width: 30%;
+                    }
+                    & th:nth-child(2) {
+                        width: 20%;
+                    }
+                    & th:nth-child(3) {
+                        width: 50%;
+                    }
                 }
-                & th:nth-child(2) {
-                    width: 20%;
+                & tr:nth-child(odd):not(:first-of-type) {
+                    background-color: transparent;
                 }
-                & th:nth-child(3) {
-                    width: 50%;
+                & tr:nth-child(even):not(:first-of-type) {
+                    background-color: var(--header-lighter-color);
+                }
+                & .service-item {
+                    padding-inline-start: 20px;
+                    margin-bottom: 0;
                 }
             }
-            & tr:nth-child(odd):not(:first-of-type) {
-                background-color: transparent;
+            & .peering-ix {
+                width: 100%;
+                & tr:first-of-type {
+                    border-bottom: var(--header-darker-color) solid 2px;
+                    & th:nth-child(1) {
+                        width: 30%;
+                    }
+                    & th:nth-child(2) {
+                        width: 20%;
+                    }
+                    & th:nth-child(3) {
+                        width: 50%;
+                    }
+                }
+                & tr:nth-child(odd):not(:first-of-type) {
+                    background-color: transparent;
+                }
+                & tr:nth-child(even):not(:first-of-type) {
+                    background-color: var(--header-lighter-color);
+                }
+                & .addr-item {
+                    padding-inline-start: 20px;
+                    margin-bottom: 0;
+                }
             }
-            & tr:nth-child(even):not(:first-of-type) {
-                background-color: transparentize($mainColor, .9);
-            }
-            & .addr-item {
-                padding-inline-start: 20px;
-                margin-bottom: 0;
-            }
-        }
-    }
-    & .educationset .meta {
-        & .degree {
-            color: $sectionTitleColor;
-            font-size: 16px;
-            margin-top: 0;
-            margin-bottom: 0;
-            font-weight: 500;
-        }
-        & .college {
-            color: $infoColor;
         }
     }
 }

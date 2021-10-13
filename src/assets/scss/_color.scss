@@ -1,3 +1,45 @@
 $mainColor: #4d256f;
-$infoColor: #97aac3;
-$sectionTitleColor: #3f4650;
+
+html:not([theme=dark]) {
+    $sectionTitleColor: #3f4650;
+    $linkColor: $mainColor;
+    $headerColor: $mainColor;
+
+    --main-color: #{$mainColor};
+    --font-color: #545e6c;
+    --bg-color: #f5f5f5;
+    --shadow-color: grey;
+    --main-wrapper-bg-color: #fff;
+
+    --link-color: #{$linkColor};
+    --link-hov-color: #{darken($linkColor, 15%)};
+
+    --section-title-color: #{$sectionTitleColor};
+    --section-title-darker-color: #{transparentize($sectionTitleColor, .7)};
+
+    --header-color: #{$headerColor};
+    --header-darker-color: #{transparentize($headerColor, .2)};
+    --header-lighter-color: #{transparentize($headerColor, .9)};
+}
+
+html[theme=dark] {
+    $sectionTitleColor: #d9edf7;
+    $linkColor: $sectionTitleColor;
+    $headerColor: mix($mainColor, #fff, 60%);
+
+    --main-color: #{$mainColor};
+    --font-color: #f5f5f5;
+    --bg-color: #222;
+    --shadow-color: #2e2e2e;
+    --main-wrapper-bg-color: #333;
+
+    --link-color: #{$linkColor};
+    --link-hov-color: #{darken($linkColor, 15%)};
+
+    --section-title-color: #{$sectionTitleColor};
+    --section-title-darker-color: #{transparentize($sectionTitleColor, .7)};
+
+    --header-color: #{$headerColor};
+    --header-darker-color: #{transparentize($headerColor, .2)};
+    --header-lighter-color: #{transparentize($headerColor, .9)};
+}
