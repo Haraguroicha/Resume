@@ -1,5 +1,10 @@
 $mainColor: #4d256f;
 
+:root {
+    --dark-mode-switcher-toggle-active-bg-color: #1c3faa;
+    --dark-mode-switcher-toggle-active-b-color: #3160d8;
+}
+
 html:not([theme=dark]) {
     $sectionTitleColor: #3f4650;
     $linkColor: $mainColor;
@@ -20,6 +25,9 @@ html:not([theme=dark]) {
     --header-color: #{$headerColor};
     --header-darker-color: #{transparentize($headerColor, .2)};
     --header-lighter-color: #{transparentize($headerColor, .9)};
+
+    --dark-mode-switcher-bg-color: white;
+    --dark-mode-switcher-text-color: #4a5568;
 }
 
 html[theme=dark] {
@@ -42,4 +50,7 @@ html[theme=dark] {
     --header-color: #{$headerColor};
     --header-darker-color: #{transparentize($headerColor, .2)};
     --header-lighter-color: #{transparentize($headerColor, .9)};
+
+    --dark-mode-switcher-bg-color: #232a3b;
+    --dark-mode-switcher-text-color: #e2e8f0;
 }

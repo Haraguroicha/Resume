@@ -19,6 +19,71 @@ body {
         }
     }
 
+    .dark-mode-switcher {
+        font-size: .875rem;
+        line-height: 1.25rem;
+        font-family: Avenir, Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-align: center;
+        background-color: var(--dark-mode-switcher-bg-color);
+        box-shadow: 0 0 transparent,0 0 transparent,0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
+        bottom: 0;
+        right: 0;
+        position: fixed;
+        margin-bottom: 2.5rem;
+        margin-right: 2.5rem;
+        height: 4rem;
+        width: 12rem;
+        z-index: 50;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        cursor: pointer;
+        border-width: 1px;
+        border-radius: 9999px;
+        border-color: transparent;
+        & .dark-mode-switcher-text {
+            color: var(--dark-mode-switcher-text-color);
+            margin-right: 1rem;
+        }
+        & .dark-mode-switcher-toggle {
+            border-radius: 9999px;
+            cursor: pointer;
+            outline: 2px solid transparent;
+            outline-offset: 2px;
+            position: relative;
+            width: 38px;
+            height: 24px;
+            padding: 1px;
+            border-width: 1px;
+            background-color: darken(white, 5%);
+            border-color: darken(white, 5%);
+            &:before {
+                border-radius: 9999px;
+                margin-top: auto;
+                margin-bottom: auto;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                content: "";
+                width: 22px;
+                height: 22px;
+                transition: all .2s ease-in-out;
+                box-shadow: 1px 1px 3px rgba(0,0,0,.25);
+            }
+            &.dark-mode-switcher-active {
+                background-color: var(--dark-mode-switcher-toggle-active-bg-color);
+                border-color: var(--dark-mode-switcher-toggle-active-b-color);
+                &:before {
+                    margin-left: 15px;
+                    background-color: darken(white, 10%);
+                }
+            }
+        }
+    }
+
     & .wrapper {
         border-radius: 20px;
         overflow: auto;
