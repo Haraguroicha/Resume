@@ -36,6 +36,12 @@ summary:
     - Ham Radio amateur player with callsign `BM2OEH`
 jobs:
   list:
+    - position: Site Reliability Engineer
+      company: OneDegree Hong Kong Limited
+      dates: 2021-11 - Present
+      location: Taipei, Taiwan
+      details: |
+        TBD
     - position: CTO, Co-Founder
       company: Walks Cloud Inc.
       dates: 2021-03 - Present
