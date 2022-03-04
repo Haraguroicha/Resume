@@ -32,7 +32,7 @@ summary:
       - 使用 [AS212359](https://bgp.he.net/AS212359) 做 BGP Peering/Transit
     - DevOps CI/CD
     - 容器管理
-    - Kubernates 管理
+    - Kubernetes 管理
     - 業餘無線電玩家 (呼號 `BM2OEH`)
 jobs:
   list:

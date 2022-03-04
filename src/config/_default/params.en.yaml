@@ -32,7 +32,7 @@ summary:
       - BGP Peering/Transit with [AS212359](https://bgp.he.net/AS212359)
     - DevOps CI/CD
     - Container management
-    - Kubernates management
+    - Kubernetes management
     - Ham Radio amateur player with callsign `BM2OEH`
 jobs:
   list:

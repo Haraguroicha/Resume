@@ -32,7 +32,7 @@ summary:
       - [AS212359](https://bgp.he.net/AS212359)をBGPピアリング/トランジット使用します
     - DevOps CI/CD
     - コンテナ管理
-    - Kubernates 管理
+    - Kubernetes 管理
     - アマチュア無線プレーヤー (コールサイン `BM2OEH`)
 jobs:
   list:
