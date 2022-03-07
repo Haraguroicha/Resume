@@ -1,9 +1,8 @@
 <section class="peering-section section">
     <h2 class="section-title"><a name="peering"><i class="fa {{ .Site.Params.peering.icon }}"></i></a>{{ T "peering" }}</h2>
     <div class="peering-info">
-        <h3 class="section-subtitle">Information</h3>
         {{- range .Site.Params.peering.info }}
-            Here is <a href="{{ .db }}" target="_blank">{{ .name }} (AS{{ .num }})</a> Peering Infomations:
+            <h3 class="section-subtitle"><a href="{{ .db }}" target="_blank">{{ .name }} (AS{{ .num }})</a> Peering Information</h3>
             <ul>
                 <li>ASN: <code>AS{{ .num }}</code> ({{ .name }})</li>
                 <li>Policy: {{ .policy }}</li>
@@ -18,7 +17,7 @@
                 {{- end }}
             </ul>
             {{- with .contact }}
-            Please kindly contact with <a href="{{ .url }}" target="_blank">{{ .name }}</a> for peering operations.
+                Please kindly contact with <a href="{{ .url }}" target="_blank">{{ .name }}</a> for peering operations.
             {{- end }}
         {{- end }}
         <h3 class="section-subtitle">Locations</h3>
