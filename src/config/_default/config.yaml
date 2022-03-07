@@ -22,10 +22,25 @@ params:
     enable: true
     icon: fa-globe
     description: |
-      Peering with AS212359 (Haraguroicha Internet Service)
+      Peering with AS57429/AS212359 (Haraguroicha Internet Service)
 
       You can contact me with @Haraguroicha in Telegram
     info:
+      - num: 57429
+        name: Haraguroicha Internet Service
+        db: https://www.peeringdb.com/net/25619
+        as-set:
+          - AS-HARAGUROICHA
+        policy: Open
+        prefix6:
+          - 2a0e:8f02:f00e::/48
+          - 2a0e:b107:1340::/44
+          - 2a0f:607:1024::/48
+          - 2602:feda:c10::/44
+          - 2602:fc23:111::/48
+        contact:
+          name: 腹黒い茶
+          url: https://t.me/Haraguroicha
       - num: 212359
         name: Haraguroicha Internet Service
         db: https://www.peeringdb.com/net/25619
