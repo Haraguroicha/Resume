@@ -38,6 +38,7 @@ params:
           - 2a0f:607:1024::/48
           - 2602:feda:c10::/44
           - 2602:fc23:111::/48
+          - 2602:fc23:11f::/48
         contact:
           name: 腹黒い茶
           url: https://t.me/Haraguroicha
@@ -53,6 +54,7 @@ params:
           - 2a0f:607:1024::/48
           - 2602:feda:c10::/44
           - 2602:fc23:111::/48
+          - 2602:fc23:11f::/48
         contact:
           name: 腹黒い茶
           url: https://t.me/Haraguroicha
@@ -102,7 +104,7 @@ params:
         db: https://peeringdb.com/ix/3634
         port: 1Gbps
         addr:
-          - 23.191.16.7
+          - 149.112.26.7
           - 2a0f:607:1070::7
   githubBase: https://github.com/Haraguroicha/Resume
   author: 腹黒い茶
