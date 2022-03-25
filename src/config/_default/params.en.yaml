@@ -29,7 +29,7 @@ summary:
 
     - Golang/Python Developement
     - Networking Management
-      - BGP Peering/Transit with [AS212359](https://bgp.he.net/AS212359)
+      - BGP Peering/Transit with [AS57429](https://bgp.he.net/AS57429) and [AS212359](https://bgp.he.net/AS212359)
     - DevOps CI/CD
     - Container management
     - Kubernetes management
