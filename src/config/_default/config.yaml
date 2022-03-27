@@ -88,12 +88,6 @@ params:
           - direct in LL-IX
           - direct in Lambda Internet Exchange
     ix:
-      - ixp: STUIX
-        db: https://peeringdb.com/ix/3352
-        port: 1Gbps
-        addr:
-          - 103.158.187.22
-          - 2a0f:5707:ffe3::22
       - ixp: LL-IX
         db: https://peeringdb.com/ix/2343
         port: 1Gbps
