@@ -33,12 +33,30 @@ params:
           - AS-HARAGUROICHA
         policy: Open
         prefix6:
-          - 2a0e:8f02:f00e::/48
-          - 2a0e:b107:1340::/44
-          - 2a0f:607:1024::/48
-          - 2602:feda:c10::/44
-          - 2602:fc23:111::/48
-          - 2602:fc23:11f::/48
+          - net6: 2a0e:b107:1340::/44
+            sponsors:
+              - name: TunnelBroker.ch (Securebit AG)
+                web: https://www.tunnelbroker.ch/
+          - net6: 2602:fc23:111::/48
+            sponsors:
+              - name: August Internet Limited
+                web: https://www.august.tw/
+          - net6: 2602:fc23:11f::/48
+            sponsors:
+              - name: August Internet Limited
+                web: https://www.august.tw/
+          - net6: 2a06:a005:190::/44
+            sponsors:
+              - name: Route48
+                web: https://route48.org/
+          - net6: 2a06:a005:1a0::/44
+            sponsors:
+              - name: Route48
+                web: https://route48.org/
+          - net6: 2a06:a005:1b0::/44
+            sponsors:
+              - name: Route48
+                web: https://route48.org/
         contact:
           name: 腹黒い茶
           url: https://t.me/Haraguroicha
@@ -49,12 +67,25 @@ params:
           - AS-HARAGUROICHA
         policy: Open
         prefix6:
-          - 2a0e:8f02:f00e::/48
-          - 2a0e:b107:1340::/44
-          - 2a0f:607:1024::/48
-          - 2602:feda:c10::/44
-          - 2602:fc23:111::/48
-          - 2602:fc23:11f::/48
+          - net6: 2a0e:8f02:f00e::/48
+            sponsors:
+              - name: FREETRANSIT (OpenFactory)
+                web: https://freetransit.ch/
+          - net6: 2a0f:607:1024::/48
+            sponsors:
+              - name: RHE
+          - net6: 2602:feda:c10::/44
+            sponsors:
+              - name: Nato Internet Service
+                web: https://internet.nat.moe/
+          - net6: 2a06:a005:1c0::/44
+            sponsors:
+              - name: Route48
+                web: https://route48.org/
+          - net6: 2a06:a005:1d0::/44
+            sponsors:
+              - name: Route48
+                web: https://route48.org/
         contact:
           name: 腹黒い茶
           url: https://t.me/Haraguroicha
@@ -87,6 +118,9 @@ params:
         services:
           - direct in LL-IX
           - direct in Lambda Internet Exchange
+          - WireGuard
+          - GRE
+          - IPSec
     ix:
       - ixp: LL-IX
         db: https://peeringdb.com/ix/2343

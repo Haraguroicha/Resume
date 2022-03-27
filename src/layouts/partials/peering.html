@@ -4,16 +4,26 @@
         {{- range .Site.Params.peering.info }}
             <h3 class="section-subtitle"><a href="{{ .db }}" target="_blank">{{ .name }} (AS{{ .num }})</a> Peering Information</h3>
             <ul>
-                <li>ASN: <code>AS{{ .num }}</code> ({{ .name }})</li>
+                <li>ASN: <a href="https://bgp.he.net/AS{{ .num }}" target="_blank"><code>AS{{ .num }}</code></a> ({{ .name }})</li>
                 <li>Policy: {{ .policy }}</li>
                 {{- range (index . "as-set") }}
-                <li>AS-SET: <code>{{ . }}</code></li>
+                <li>AS-SET: <a href="https://apps.db.ripe.net/db-web-ui/query?searchtext={{ . }}" target="_blank"><code>{{ . }}</code></a></li>
                 {{- end }}
                 {{- range .prefix }}
-                <li>inet: <code>{{ . }}</code></li>
+                <li>
+                    inet: <a href="https://bgp.he.net/net/{{ .net }}" target="_blank"><code>{{ .net }}</code></a>
+                    {{- range (index . "sponsors") }}
+                    (Sponsor: {{ if not (eq .web nil) -}}<a href="{{ .web }}" target="_blank">{{- end -}}{{ .name }}{{- if not (eq .web nil) -}}</a>{{- end -}})
+                    {{- end }}
+                </li>
                 {{- end }}
                 {{- range .prefix6 }}
-                <li>inet6: <code>{{ . }}</code></li>
+                <li>
+                    inet6: <a href="https://bgp.he.net/net/{{ .net6 }}" target="_blank"><code>{{ .net6 }}</code></a>
+                    {{- range (index . "sponsors") }}
+                    (Sponsor: {{ if not (eq .web nil) -}}<a href="{{ .web }}" target="_blank">{{- end -}}{{ .name }}{{- if not (eq .web nil) -}}</a>{{- end -}})
+                    {{- end }}
+                </li>
                 {{- end }}
             </ul>
             {{- with .contact }}
