@@ -41,7 +41,15 @@ jobs:
       dates: 2021-11 - Present
       location: 台灣台北
       details: |
-        TBD
+        在 Azure Cloud 上管理部屬與發佈及監控 IXT (OneDegree Insurance Platform) 相關的資源與服務
+
+        * 研究在 CI/CD 與架構上的解決方案
+        * 協助 QA 做 IXT 系統的壓力測試
+        * 重組現存的容器資源清理工具
+        * 與資安團隊一起診斷產品是否受到 `log4j` 相關的資安問題，結果為無影響
+        * CI/CD 的整理與對齊
+        * 與前端工程師合作解決 CSR 和 SSG 相關的問題
+        * 製作非 root 的容器給使用 OpenStack 架構的客戶
     - position: 技術長, 共同創辦人
       company: Walks Cloud Inc. (行雲資訊有限公司)
       dates: 2021-03 - Present

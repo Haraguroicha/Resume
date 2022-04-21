@@ -41,7 +41,15 @@ jobs:
       dates: 2021-11 - Present
       location: Taipei, Taiwan
       details: |
-        TBD
+        Manage deployments/releases which related with IXT (OneDegree Insurance Platform) on Azure Cloud and monitoring services
+
+        * Research solutions for improvement of CI/CD and infrastructures
+        * Assistant with QA doing stress test with IXT systems
+        * Re-Organize existing of container registry (ACR) cleanup script
+        * Cooperate with Cybersecurity team to diagnosis `log4j` related security issues on products and result found for no impact
+        * CI/CD alignment
+        * Cooperate with frontend to resolve CSR and SSG related issues
+        * Making non-root container for customer which uses OpenStack infrastructure
     - position: CTO, Co-Founder
       company: Walks Cloud Inc.
       dates: 2021-03 - Present

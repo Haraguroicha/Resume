@@ -41,7 +41,15 @@ jobs:
       dates: 2021-11 - Present
       location: 台湾台北
       details: |
-        TBD
+        Azureクラウドおよび監視サービスでIXT（OneDegree Insurance Platform）に関連する展開/リリースを管理します
+
+        * CI/CDとアーキテクチャに関する研究ソリューション
+        * IXTシステムのストレステストでQAを支援します
+        * 既存のコンテナリソースクリーンアップツールを再編成します
+        * セキュリティチームと協力して、製品が`log4j`関連のセキュリティ問題の影響を受けているかどうかを診断します。結果は影響しません
+        * CI/CDの編成と調整
+        * フロントエンドエンジニアと協力して、CSRおよびSSG関連の問題を解決します
+        * OpenStackアーキテクチャーを使用する顧客向けに非ルートコンテナーを作成する
     - position: 最高技術責任者, 共同創設者
       company: Walks Cloud Inc.
       dates: 2021-03 - Present
