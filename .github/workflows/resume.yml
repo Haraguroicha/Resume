@@ -56,9 +56,10 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: .build
         force_orphan: true
-#    - uses: akhileshns/heroku-deploy@v3.5.7
-#      with:
-#        heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-#        heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
-#        heroku_email: ${{ secrets.HEROKU_EMAIL }}
-#        usedocker: true
+    - uses: akhileshns/heroku-deploy@v3.12.12
+      with:
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
+        heroku_email: ${{ secrets.HEROKU_EMAIL }}
+        branch: origin/gh-pages
+        buildpack: "https://github.com/heroku/heroku-buildpack-nginx.git"
