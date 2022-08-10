@@ -30,3 +30,6 @@ $RECYCLE.BIN/
 
 # ignore dynamic generated file
 /src/data/rev.yaml
+
+# hugo build lock
+.hugo_build.lock
