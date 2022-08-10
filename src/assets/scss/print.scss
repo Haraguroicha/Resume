@@ -119,6 +119,21 @@ $sectionLine: 2px solid gray;
                 }
             }
         }
+        & .skills-section {
+            & .certificationset {
+                & .job-title {
+                    display: inline-block;
+                    margin: 0;
+                }
+                & .time {
+                    display: inline-block;
+                    float: right;
+                }
+                & .certificate-fullname {
+                    font-weight: bold;
+                }
+            }
+        }
         & .peering-section {
             display: none;
         }

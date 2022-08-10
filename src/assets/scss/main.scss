@@ -148,6 +148,9 @@ body {
                         width: 100%;
                     }
                 }
+                & .job-title {
+                    color: var(--section-title-color);
+                }
             }
         }
         & .educationset .meta {
