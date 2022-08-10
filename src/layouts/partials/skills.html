@@ -1,5 +1,50 @@
 <section class="skills-section section">
     <h2 class="section-title"><i class="fa {{ .Site.Params.skills.icon }}"></i>{{ T "skills" }}</h2>
+    <div class="certificationset">
+    {{ range .Site.Params.skills.certifications }}
+        <div class="item">
+            <div class="meta">
+                <div class="upper-row">
+                    <h3 class="job-title">{{ .name }}</h3>
+                    <div class="time">
+                        {{- $dateFrom := .since -}}
+                        {{- $dateTo := .until -}}
+                        {{- $dateToStr := $dateTo -}}
+                        {{- if eq (lower $dateTo) "present" -}}
+                            {{- $dateToStr = now.Format "2006-01-02" -}}
+                        {{- end -}}
+                        {{- $nextToFirstDate := split $dateToStr "-" -}}
+                        {{- $nextTo := (printf "%s-%02d" (index ($nextToFirstDate) 0) (add (int ((index ($nextToFirstDate) 1) | strings.TrimLeft "0")) 1)) -}}
+                        {{- $dateUFrom := ((print $dateFrom "T00:00:00Z") | time).Unix -}}
+                        {{- $dateUTo := ((print $nextTo "-01T23:59:59Z") | time).Unix -}}
+                        {{- $yrs := div (sub $dateUTo $dateUFrom) 31536000 -}}
+                        {{- $mos := sub (div (sub $dateUTo $dateUFrom) 2628000) (mul $yrs 12) -}}
+                        {{- ((print $dateFrom "T00:00:00Z") | time).Format "Jan. 02 2006" -}}
+                        {{- " - " -}}
+                        {{- if eq (lower $dateTo) "present" -}}
+                            {{- i18n $dateTo -}}
+                        {{- else -}}
+                            {{- ((print $dateToStr "T00:00:00Z") | time).Format "Jan. 02 2006" -}}
+                        {{- end -}}
+                        {{- " " -}}
+                        (
+                            {{- if (gt $yrs 0) }}{{ $yrs }} {{ cond (eq $yrs 1) "yr" "yrs" }} {{ end -}}
+                            {{- $mos }} {{ cond (eq $mos 1) "mo" "mos" -}}
+                        )
+                        {{- "" -}}
+                    </div>
+                </div><!--//upper-row-->
+                <div class="upper-row">
+                    <div class="time">{{ .number }}</div>
+                    <span class="location">{{ .fullname }}</span>
+                </div>
+                <div class="certificate-img">
+                    <img src="images/certs/{{ i18n .i18nImageKey }}" />
+                </div>
+            </div><!--//meta-->
+        </div><!--//item-->
+    {{ end }}
+    </div>
     <div class="skillset">
     {{- range .Site.Params.skills.list }}
         <span class="label label-default">{{ .skill }}</span>

@@ -136,6 +136,20 @@ body {
                 margin-bottom: 10px;
             }
         }
+        & .skills-section {
+            & .certificationset, & .skillset {
+                padding-bottom: 1.5rem;
+                & .certificate-img {
+                    overflow: hidden;
+                    margin-left: 13px;
+                    & img {
+                        position: relative;
+                        left: -13px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
         & .educationset .meta {
             & .degree {
                 color: var(--section-title-color);

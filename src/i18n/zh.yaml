@@ -16,3 +16,5 @@
   translation: 至今
 - id: peering
   translation: Peering
+- id: az-104-cert-image
+  translation: az-104.azure-administrator.zh-tw.png
