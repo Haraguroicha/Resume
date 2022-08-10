@@ -1,5 +1,6 @@
 @import url("{{ .Site.BaseURL }}assets/css/styles.css");
 
+@import "vars";
 @import "color";
 
 @media (min-width: 767px) {
@@ -140,11 +141,9 @@ body {
             & .certificationset, & .skillset {
                 padding-bottom: 1.5rem;
                 & .certificate-img {
-                    overflow: hidden;
-                    margin-left: 13px;
-                    & img {
-                        position: relative;
-                        left: -13px;
+                    margin-left: $certificates-left-position;
+                    img {
+                        object-position: -$certificates-left-position top;
                         width: 100%;
                     }
                 }

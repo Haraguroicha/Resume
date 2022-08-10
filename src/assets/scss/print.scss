@@ -1,3 +1,4 @@
+@import "vars";
 @import "color";
 
 $sectionLine: 2px solid gray;
@@ -131,6 +132,13 @@ $sectionLine: 2px solid gray;
                 }
                 & .certificate-fullname {
                     font-weight: bold;
+                }
+                & .certificate-img {
+                    margin-left: $certificates-left-position;
+                    img {
+                        object-position: -$certificates-left-position top;
+                        width: 100%;
+                    }
                 }
             }
         }
