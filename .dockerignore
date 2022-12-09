@@ -1,0 +1,208 @@
+# flyctl launch added from .build/public/assets/plugins/bootstrap/.gitignore
+# Ignore docs files
+.build/public/assets/plugins/bootstrap/**/_gh_pages
+.build/public/assets/plugins/bootstrap/**/_site
+.build/public/assets/plugins/bootstrap/**/.ruby-version
+
+# Numerous always-ignore extensions
+.build/public/assets/plugins/bootstrap/**/*.diff
+.build/public/assets/plugins/bootstrap/**/*.err
+.build/public/assets/plugins/bootstrap/**/*.log
+.build/public/assets/plugins/bootstrap/**/*.orig
+.build/public/assets/plugins/bootstrap/**/*.rej
+.build/public/assets/plugins/bootstrap/**/*.swo
+.build/public/assets/plugins/bootstrap/**/*.swp
+.build/public/assets/plugins/bootstrap/**/*.vi
+.build/public/assets/plugins/bootstrap/**/*.zip
+.build/public/assets/plugins/bootstrap/**/*~
+
+# OS or Editor folders
+.build/public/assets/plugins/bootstrap/**/._*
+.build/public/assets/plugins/bootstrap/**/.cache
+.build/public/assets/plugins/bootstrap/**/.DS_Store
+.build/public/assets/plugins/bootstrap/**/.idea
+.build/public/assets/plugins/bootstrap/**/.project
+.build/public/assets/plugins/bootstrap/**/.settings
+.build/public/assets/plugins/bootstrap/**/.tmproj
+.build/public/assets/plugins/bootstrap/**/*.esproj
+.build/public/assets/plugins/bootstrap/**/*.sublime-project
+.build/public/assets/plugins/bootstrap/**/*.sublime-workspace
+.build/public/assets/plugins/bootstrap/**/nbproject
+.build/public/assets/plugins/bootstrap/**/Thumbs.db
+
+# Komodo
+.build/public/assets/plugins/bootstrap/**/.komodotools
+.build/public/assets/plugins/bootstrap/**/*.komodoproject
+
+# Jekyll metadata
+.build/public/assets/plugins/bootstrap/**/docs/.jekyll-metadata
+
+# Folders to ignore
+.build/public/assets/plugins/bootstrap/**/bower_components
+.build/public/assets/plugins/bootstrap/**/node_modules
+
+# flyctl launch added from .gitignore
+# Binaries for programs and plugins
+**/*.exe
+**/*.exe~
+**/*.dll
+**/*.so
+**/*.dylib
+
+# Test binary, build with `go test -c`
+**/*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+**/*.out
+
+# Hugo default output directory
+src/public
+src/resources
+
+## OS Files
+# Windows
+**/Thumbs.db
+**/ehthumbs.db
+**/Desktop.ini
+**/$RECYCLE.BIN
+
+# OSX
+**/.DS_Store
+
+# build.sh generated
+.build
+
+# ignore dynamic generated file
+src/data/rev.yaml
+
+# hugo build lock
+**/.hugo_build.lock
+
+# flyctl launch added from src/public/assets/plugins/bootstrap/.gitignore
+# Ignore docs files
+src/public/assets/plugins/bootstrap/**/_gh_pages
+src/public/assets/plugins/bootstrap/**/_site
+src/public/assets/plugins/bootstrap/**/.ruby-version
+
+# Numerous always-ignore extensions
+src/public/assets/plugins/bootstrap/**/*.diff
+src/public/assets/plugins/bootstrap/**/*.err
+src/public/assets/plugins/bootstrap/**/*.log
+src/public/assets/plugins/bootstrap/**/*.orig
+src/public/assets/plugins/bootstrap/**/*.rej
+src/public/assets/plugins/bootstrap/**/*.swo
+src/public/assets/plugins/bootstrap/**/*.swp
+src/public/assets/plugins/bootstrap/**/*.vi
+src/public/assets/plugins/bootstrap/**/*.zip
+src/public/assets/plugins/bootstrap/**/*~
+
+# OS or Editor folders
+src/public/assets/plugins/bootstrap/**/._*
+src/public/assets/plugins/bootstrap/**/.cache
+src/public/assets/plugins/bootstrap/**/.DS_Store
+src/public/assets/plugins/bootstrap/**/.idea
+src/public/assets/plugins/bootstrap/**/.project
+src/public/assets/plugins/bootstrap/**/.settings
+src/public/assets/plugins/bootstrap/**/.tmproj
+src/public/assets/plugins/bootstrap/**/*.esproj
+src/public/assets/plugins/bootstrap/**/*.sublime-project
+src/public/assets/plugins/bootstrap/**/*.sublime-workspace
+src/public/assets/plugins/bootstrap/**/nbproject
+src/public/assets/plugins/bootstrap/**/Thumbs.db
+
+# Komodo
+src/public/assets/plugins/bootstrap/**/.komodotools
+src/public/assets/plugins/bootstrap/**/*.komodoproject
+
+# Jekyll metadata
+src/public/assets/plugins/bootstrap/**/docs/.jekyll-metadata
+
+# Folders to ignore
+src/public/assets/plugins/bootstrap/**/bower_components
+src/public/assets/plugins/bootstrap/**/node_modules
+
+# flyctl launch added from src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/.gitignore
+# Ignore docs files
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/_gh_pages
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/_site
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/.ruby-version
+
+# Numerous always-ignore extensions
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/*.diff
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/*.err
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/*.log
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/*.orig
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/*.rej
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/*.swo
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/*.swp
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/*.vi
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/*.zip
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/*~
+
+# OS or Editor folders
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/._*
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/.cache
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/.DS_Store
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/.idea
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/.project
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/.settings
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/.tmproj
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/*.esproj
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/*.sublime-project
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/*.sublime-workspace
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/nbproject
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/Thumbs.db
+
+# Komodo
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/.komodotools
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/*.komodoproject
+
+# Jekyll metadata
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/docs/.jekyll-metadata
+
+# Folders to ignore
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/bower_components
+src/themes/hugo-orbit-theme/exampleSite/static/assets/plugins/bootstrap/**/node_modules
+
+# flyctl launch added from src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/.gitignore
+# Ignore docs files
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/_gh_pages
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/_site
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/.ruby-version
+
+# Numerous always-ignore extensions
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/*.diff
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/*.err
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/*.log
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/*.orig
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/*.rej
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/*.swo
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/*.swp
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/*.vi
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/*.zip
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/*~
+
+# OS or Editor folders
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/._*
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/.cache
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/.DS_Store
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/.idea
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/.project
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/.settings
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/.tmproj
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/*.esproj
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/*.sublime-project
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/*.sublime-workspace
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/nbproject
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/Thumbs.db
+
+# Komodo
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/.komodotools
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/*.komodoproject
+
+# Jekyll metadata
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/docs/.jekyll-metadata
+
+# Folders to ignore
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/bower_components
+src/themes/hugo-orbit-theme/static/assets/plugins/bootstrap/**/node_modules

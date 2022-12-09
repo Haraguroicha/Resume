@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DIR=$( cd "$( dirname "$0" )" && pwd )
-TARGET=${DIR}/.build
+TARGET=${DIR}/build
 
 mkdir -p "${TARGET}"
 mkdir -p "${DIR}/src/data"
@@ -17,8 +17,7 @@ HUGO_ENV=production HUGO_DISABLELANGUAGES="" hugo -b "/" --minify
 
 cd "${DIR}"
 
-rm "${DIR}/src/public/assets/css/"styles-*.css
+cp -R {src/public,config} "${TARGET}/"
 
-rm src/public/index.html
-
-cp -R {src/public,config,run-server,Procfile} "${TARGET}/"
+rm "${TARGET}/public/assets/css/"styles-*.css
+rm "${TARGET}/public/index.html"

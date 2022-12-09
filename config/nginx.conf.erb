@@ -40,8 +40,8 @@ http {
   include allowed.conf;
 
   log_format l2met 'measure#nginx.service=$request_time request_id=$http_x_request_id ray=$ray ip=$connip geo=$country fwd=$http_x_forwarded_for';
-  access_log logs/nginx/access.log l2met;
-  error_log logs/nginx/error.log;
+  access_log /app/nginx-access.log l2met;
+  error_log /app/nginx-error.log;
 
   include mime.types;
   default_type application/octet-stream;
@@ -54,7 +54,7 @@ http {
   absolute_redirect off;
 
   server {
-    listen <%= ENV["PORT"] %>;
+    listen <%= ENV["PORT"] || 8080 %>;
     server_name default_server;
     keepalive_timeout 5;
     client_max_body_size <%= ENV['NGINX_CLIENT_MAX_BODY_SIZE'] || 1 %>M;
