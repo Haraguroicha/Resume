@@ -14,7 +14,12 @@
                         {{- $dateToStr = now.Format "2006-01" -}}
                     {{- end -}}
                     {{- $nextToFirstDate := split $dateToStr "-" -}}
-                    {{- $nextTo := (printf "%s-%02d" (index ($nextToFirstDate) 0) (add (int ((index ($nextToFirstDate) 1) | strings.TrimLeft "0")) 1)) -}}
+                    {{- $nextTo := "" -}}
+                    {{- if eq (index ($nextToFirstDate) 1) "12" -}}
+                    {{- $nextTo = (printf "%d-01" (add (int ((index ($nextToFirstDate) 0) | strings.TrimLeft "0")) 1)) -}}
+                    {{- else -}}
+                    {{- $nextTo = (printf "%s-%02d" (index ($nextToFirstDate) 0) (add (int ((index ($nextToFirstDate) 1) | strings.TrimLeft "0")) 1)) -}}
+                    {{- end -}}
                     {{- $dateUFrom := ((print $dateFrom "-01T00:00:00Z") | time).Unix -}}
                     {{- $dateUTo := ((print $nextTo "-01T23:59:59Z") | time).Unix -}}
                     {{- $yrs := div (sub $dateUTo $dateUFrom) 31536000 -}}
