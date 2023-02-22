@@ -36,6 +36,12 @@ summary:
     - アマチュア無線プレーヤー (コールサイン `BM2OEH`)
 jobs:
   list:
+    - position: 情報セキュリティエンジニア
+      company: KlickKlack Co., Ltd.
+      dates: 2023-03 - Present
+      location: 台湾台北
+      details: |
+        TBA
     - position: サイト信頼性エンジニア
       company: OneDegree Hong Kong Limited
       dates: 2021-11 - 2023-02

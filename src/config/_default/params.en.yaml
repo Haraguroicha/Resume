@@ -36,6 +36,12 @@ summary:
     - Ham Radio amateur player with callsign `BM2OEH`
 jobs:
   list:
+    - position: Information Security Engineer
+      company: KlickKlack Co., Ltd.
+      dates: 2023-03 - Present
+      location: Taipei, Taiwan
+      details: |
+        TBA
     - position: Site Reliability Engineer
       company: OneDegree Hong Kong Limited
       dates: 2021-11 - 2023-02
