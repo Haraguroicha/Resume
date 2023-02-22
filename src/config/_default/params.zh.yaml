@@ -38,7 +38,7 @@ jobs:
   list:
     - position: 網站可靠性工程師
       company: OneDegree Hong Kong Limited (OneDegree 甯寶金融科技有限公司)
-      dates: 2021-11 - Present
+      dates: 2021-11 - 2023-02
       location: 台灣台北
       details: |
         在 Azure Cloud 上管理部屬與發佈及監控 IXT (OneDegree Insurance Platform) 相關的資源與服務
@@ -50,6 +50,7 @@ jobs:
         * CI/CD 的整理與對齊
         * 與前端工程師合作解決 CSR 和 SSG 相關的問題
         * 製作非 root 的容器給使用 OpenStack 架構的客戶
+        * 遷移 Kubernetes 至 Knative 架構，並且整合 Azure AD 整合驗證與 Azure RBAC
     - position: 技術長, 共同創辦人
       company: Walks Cloud Inc. (行雲資訊有限公司)
       dates: 2021-03 - Present

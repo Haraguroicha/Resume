@@ -38,7 +38,7 @@ jobs:
   list:
     - position: サイト信頼性エンジニア
       company: OneDegree Hong Kong Limited
-      dates: 2021-11 - Present
+      dates: 2021-11 - 2023-02
       location: 台湾台北
       details: |
         Azureクラウドおよび監視サービスでIXT（OneDegree Insurance Platform）に関連する展開/リリースを管理します
@@ -50,6 +50,7 @@ jobs:
         * CI/CDの編成と調整
         * フロントエンドエンジニアと協力して、CSRおよびSSG関連の問題を解決します
         * OpenStackアーキテクチャーを使用する顧客向けに非ルートコンテナーを作成する
+        * KubernetesをKnativeインフラストラクチャに移行し、Azure AD認証をAzure RBACと統合する
     - position: 最高技術責任者, 共同創設者
       company: Walks Cloud Inc.
       dates: 2021-03 - Present

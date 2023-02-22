@@ -38,7 +38,7 @@ jobs:
   list:
     - position: Site Reliability Engineer
       company: OneDegree Hong Kong Limited
-      dates: 2021-11 - Present
+      dates: 2021-11 - 2023-02
       location: Taipei, Taiwan
       details: |
         Manage deployments/releases which related with IXT (OneDegree Insurance Platform) on Azure Cloud and monitoring services
@@ -50,6 +50,7 @@ jobs:
         * CI/CD alignment
         * Cooperate with frontend to resolve CSR and SSG related issues
         * Making non-root container for customer which uses OpenStack infrastructure
+        * Migrate Kubernetes into Knative infrastructure and integrate Azure AD authentication with Azure RBAC
     - position: CTO, Co-Founder
       company: Walks Cloud Inc.
       dates: 2021-03 - Present
