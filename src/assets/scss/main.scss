@@ -138,6 +138,9 @@ body {
             }
         }
         & .skills-section {
+            & .certificationset > .item {
+                margin-bottom: 4rem;
+            }
             & .certificationset, & .skillset {
                 padding-bottom: 1.5rem;
                 & .certificate-img {
