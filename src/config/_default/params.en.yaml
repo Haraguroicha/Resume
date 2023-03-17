@@ -28,6 +28,7 @@ summary:
     A geek guy with various domain experiences in Backend Development, Mobile Development and Infrastructure Technologies management.
 
     - Golang/Python Developement
+    - MDM solution consultant
     - Networking Management
       - BGP Peering/Transit with [AS57429](https://bgp.he.net/AS57429) and [AS212359](https://bgp.he.net/AS212359)
     - DevOps CI/CD
@@ -41,7 +42,12 @@ jobs:
       dates: 2023-03 - Present
       location: Taipei, Taiwan
       details: |
-        TBA
+        Research for MDM solutions to resolving customers' management and security related issues and also planning for MDM deployment to customers
+
+        * Research for solutions to helps customer to archive or meet CIS Benchmarks score and ISO requirements
+        * Lead to suggest customer to integration with MDM and/or Endpoint Security solutions
+        * Remote management solutions consultant
+        * TBA for addition detail
     - position: Site Reliability Engineer
       company: OneDegree Hong Kong Limited
       dates: 2021-11 - 2023-02
@@ -63,6 +69,11 @@ jobs:
       location: Taipei, Taiwan
       details: |
         MIS Outsourcing undertake, build customer premises network planning and construction, information equipment inventory and asset management
+
+        * Lead and implement a product to managed cloud identities solution, and helps to integrated environment with networking authentication together
+        * Lead and design for structure networking infrastructure constructure
+        * MDM solutions consultant and management agent service
+        * TBA for addition detail
     - position: Systems Engineer
       company: TeamT5 Inc.
       dates: 2018-08 - 2021-03

@@ -28,6 +28,7 @@ summary:
     一個對於後端開發、行動裝置開發和 IT 管理非常有經驗的傢伙
 
     - Golang/Python 開發
+    - MDM 解決方案顧問
     - 網路管理
       - 使用 [AS57429](https://bgp.he.net/AS57429) 和 [AS212359](https://bgp.he.net/AS212359) 做 BGP Peering/Transit
     - DevOps CI/CD
@@ -41,7 +42,12 @@ jobs:
       dates: 2023-03 - Present
       location: 台灣台北
       details: |
-        TBA
+        尋找 MDM 解決方案來解決客戶在安全與管理相關疑難雜症與計畫導入 MDM 建置給客戶
+
+        * 研究解決方案來協助客戶達成 CIS Benchmarks 分數與 ISO 要求
+        * 帶領與建議客戶整合 MDM 和/或 端點資訊安全解決方案
+        * 遠端管理解決方案顧問
+        * 待補充更多詳細
     - position: 網站可靠性工程師
       company: OneDegree Hong Kong Limited (OneDegree 甯寶金融科技有限公司)
       dates: 2021-11 - 2023-02
@@ -63,6 +69,11 @@ jobs:
       location: 台灣台北
       details: |
         MIS 服務外包承接，客戶辦公室網路規劃建置與建構，資訊設備資產盤點與管理
+
+        * 帶領實作產品來管理雲端身份驗證解決方案，同時協助客戶整合網路驗證環境
+        * 帶領設計結構化網路佈線基礎建設
+        * MDM 解決方案顧問與代管服務
+        * 待補充更多詳細
     - position: 系統工程師
       company: TeamT5 Inc. (杜浦數位安全有限公司)
       dates: 2018-08 - 2021-03
