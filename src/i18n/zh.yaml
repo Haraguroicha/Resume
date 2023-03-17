@@ -18,3 +18,5 @@
   translation: Peering
 - id: az-104-cert-image
   translation: az-104.azure-administrator.zh-tw.png
+- id: jamf-200-cert-image
+  translation: jamf-200.jamf-pro-v10.png
