@@ -204,18 +204,18 @@ params:
       - skill: 3ds Max
       - skill: blender
     certifications:
-      - name: AZ-104
-        fullname: "Microsoft Certified: Azure Administrator Associate"
-        number: I378-6155
-        since: 2022-08-10
-        until: Present
-        i18nImageKey: az-104-cert-image
       - name: Jamf 200
         fullname: "Jamf Certified Tech: Jamf Pro Version 10"
         number: 202302-51625
         since: 2023-03-16
         until: Present
         i18nImageKey: jamf-200-cert-image
+      - name: AZ-104
+        fullname: "Microsoft Certified: Azure Administrator Associate"
+        number: I378-6155
+        since: 2022-08-10
+        until: Present
+        i18nImageKey: az-104-cert-image
   footer:
     copyright: 腹黒い茶
 
