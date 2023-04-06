@@ -1,4 +1,4 @@
 # Resume
 Haraguroicha Resume Site
 
-![Build Status](https://travis-ci.org/Haraguroicha/Resume.svg?branch=master)
+![Build Status](https://github.com/Haraguroicha/Resume/actions/workflows/resume.yml/badge.svg)
