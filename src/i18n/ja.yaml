@@ -20,3 +20,5 @@
   translation: az-104.azure-administrator.ja-jp.png
 - id: jamf-200-cert-image
   translation: jamf-200.jamf-pro-v10.png
+- id: jamf-370-cert-image
+  translation: jamf-370.jamf-pro-protect.png
