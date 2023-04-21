@@ -45,18 +45,6 @@ params:
             sponsors:
               - name: August Internet Limited
                 web: https://www.august.tw/
-          - net6: 2a06:a005:190::/44
-            sponsors:
-              - name: Route48
-                web: https://route48.org/
-          - net6: 2a06:a005:1a0::/44
-            sponsors:
-              - name: Route48
-                web: https://route48.org/
-          - net6: 2a06:a005:1b0::/44
-            sponsors:
-              - name: Route48
-                web: https://route48.org/
         contact:
           name: 腹黒い茶
           url: https://t.me/Haraguroicha
@@ -78,14 +66,6 @@ params:
             sponsors:
               - name: Nato Internet Service
                 web: https://internet.nat.moe/
-          - net6: 2a06:a005:1c0::/44
-            sponsors:
-              - name: Route48
-                web: https://route48.org/
-          - net6: 2a06:a005:1d0::/44
-            sponsors:
-              - name: Route48
-                web: https://route48.org/
         contact:
           name: 腹黒い茶
           url: https://t.me/Haraguroicha
