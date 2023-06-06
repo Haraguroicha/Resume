@@ -22,3 +22,5 @@
   translation: jamf-200.jamf-pro-v10.png
 - id: jamf-370-cert-image
   translation: jamf-370.jamf-pro-protect.png
+- id: jamf-300-cert-image
+  translation: jamf-300.jamf-pro-v10.png

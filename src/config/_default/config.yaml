@@ -184,6 +184,12 @@ params:
       - skill: 3ds Max
       - skill: blender
     certifications:
+      - name: Jamf 300
+        fullname: "Jamf Certified Admin: Jamf Pro Version 10"
+        number: 202303-52157
+        since: 2023-06-01
+        until: Present
+        i18nImageKey: jamf-300-cert-image
       - name: Jamf 370
         fullname: "Jamf Certified Endpoint Security Admin Certificate"
         number: 202303-52156
