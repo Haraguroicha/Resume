@@ -206,7 +206,7 @@ params:
         fullname: "Microsoft Certified: Azure Administrator Associate"
         number: I378-6155
         since: 2022-08-10
-        until: Present
+        until: 2023-08-11
         i18nImageKey: az-104-cert-image
   footer:
     copyright: 腹黒い茶
