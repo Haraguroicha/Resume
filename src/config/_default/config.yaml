@@ -200,6 +200,11 @@ params:
       - skill: 3ds Max
       - skill: blender
     certifications:
+      - name: Jamf Ambassador
+        fullname: "Jamf Partner: Ambassador"
+        since: 2024-03-15
+        until: 2026-03-15
+        i18nImageKey: JamfAmbassador_Badge
       - name: Jamf 300
         fullname: "Jamf Certified Admin: Jamf Pro Version 10"
         number: 202303-52157
