@@ -28,7 +28,7 @@ params:
     info:
       - num: 57429
         name: Haraguroicha Internet Service
-        db: https://www.peeringdb.com/net/25619
+        db: https://www.peeringdb.com/net/29410
         as-set:
           - AS-HARAGUROICHA
         policy: Open
@@ -77,7 +77,8 @@ params:
                 web: https://freetransit.ch/
           - net6: 2a0f:607:1024::/48
             sponsors:
-              - name: RHE
+              - name: RHE-NET
+                web: https://as51044.net/
           - net6: 2602:feda:c10::/44
             sponsors:
               - name: Nato Internet Service
