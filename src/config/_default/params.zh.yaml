@@ -44,9 +44,11 @@ jobs:
       details: |
         尋找 MDM 解決方案來解決客戶在安全與管理相關疑難雜症與計畫導入 MDM 建置給客戶
 
-        * 研究解決方案來協助客戶達成 CIS Benchmarks 分數與 ISO 要求
+        * 研究解決方案來協助客戶達成 CIS Benchmarks 與 ISO 合規要求
         * 帶領與建議客戶整合 MDM 和/或 端點資訊安全解決方案
         * 遠端管理解決方案顧問
+        * 帶領與開發 Cloud Webhook，以達成以下項目
+          * eSIM（行動網路）部署到端點設備的管理
         * 待補充更多詳細
     - position: 網站可靠性工程師
       company: OneDegree Hong Kong Limited (OneDegree 甯寶金融科技有限公司)

@@ -44,9 +44,11 @@ jobs:
       details: |
         Research for MDM solutions to resolving customers' management and security related issues and also planning for MDM deployment to customers
 
-        * Research for solutions to helps customer to archive or meet CIS Benchmarks score and ISO requirements
+        * Research solutions to assist clients in achieving CIS Benchmarks and ISO compliance requirements
         * Lead to suggest customer to integration with MDM and/or Endpoint Security solutions
         * Remote management solutions consultant
+        * Lead and develop Cloud Webhooks to achieve the following goals
+          * management deployment of eSIM Plan (Cellular Network Plans) to endpoint devices
         * TBA for addition detail
     - position: Site Reliability Engineer
       company: OneDegree Hong Kong Limited
