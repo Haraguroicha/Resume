@@ -180,12 +180,18 @@ params:
     enable: true
     icon: fa-rocket
     list:
+      - skill: Rust
       - skill: Golang
+      - skill: Grafana
+      - skill: Prometheus
+      - skill: InfluxDB
+      - skill: DynamoDB
+      - skill: PostgreSQL
+      - skill: MongoDB
       - skill: Python
       - skill: Swift
       - skill: Objective-C
       - skill: Git
-      - skill: C#
       - skill: Bash
       - skill: macOS
       - skill: Linux
@@ -194,12 +200,12 @@ params:
       - skill: Docker
       - skill: Kubernetes
       - skill: Nginx
-      - skill: PostgreSQL
-      - skill: Oracle DB
-      - skill: IBM DB2
       - skill: MySQL
-      - skill: 3ds Max
+      - skill: Oracle DB
+      - skill: C#
+      - skill: IBM DB2
       - skill: blender
+      - skill: 3ds Max
     certifications:
       - name: Jamf Ambassador
         fullname: "Jamf Partner: Ambassador"
