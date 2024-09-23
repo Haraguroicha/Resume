@@ -207,6 +207,16 @@ params:
       - skill: blender
       - skill: 3ds Max
     certifications:
+      - name: Jamf Management Engineer
+        fullname: "Jamf Partner: Management Engineer"
+        since: 2024-09-11
+        until: 2026-09-11
+        i18nImageKey: JamfManagementEngineer_Badge
+      - name: Jamf Management Consultant
+        fullname: "Jamf Partner: Management Consultant"
+        since: 2024-09-11
+        until: 2026-09-11
+        i18nImageKey: JamfManagementConsultant_Badge
       - name: Jamf Ambassador
         fullname: "Jamf Partner: Ambassador"
         since: 2024-03-15

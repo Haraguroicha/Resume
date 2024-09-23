@@ -26,3 +26,7 @@
   translation: jamf-300.jamf-pro-v10.png
 - id: JamfAmbassador_Badge
   translation: JamfAmbassador_Badge20240315-43-3b6rph.png
+- id: JamfManagementConsultant_Badge
+  translation: JamfManagementConsultant_Badge20240923-7-9k7ghd.png
+- id: JamfManagementEngineer_Badge
+  translation: JamfManagementEngineer_Badge20240923-7-fg7vao.png
