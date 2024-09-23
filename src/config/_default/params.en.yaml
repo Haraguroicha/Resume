@@ -48,7 +48,9 @@ jobs:
         * Lead to suggest customer to integration with MDM and/or Endpoint Security solutions
         * Remote management solutions consultant
         * Lead and develop Cloud Webhooks to achieve the following goals
-          * management deployment of eSIM Plan (Cellular Network Plans) to endpoint devices
+          * Manage and deploy eSIM Plan (Cellular Network Plans) to endpoint devices
+          * Issue remote commands to rename computers or devices using templates and any available attribute field data
+          * Determine whether it is in the allowed list by detecting IP changes, and automatically restrict any managed equipment and devices based on the list
         * TBA for addition detail
     - position: Site Reliability Engineer
       company: OneDegree Hong Kong Limited
