@@ -3,7 +3,8 @@ name: Resume Deploy
 on:
   workflow_dispatch:
   push:
-    branches: master
+    branches:
+    - master
 
 jobs:
   deploy:
@@ -18,9 +19,9 @@ jobs:
       with:
         submodules: true  # Fetch Hugo themes (true OR recursive)
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: 'latest'
+        hugo-version: "${{ vars.HUGO_BUILD_VERSION }}"
         extended: true
     - name: Setup Node
       uses: actions/setup-node@v2
