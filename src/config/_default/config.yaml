@@ -182,6 +182,9 @@ params:
     list:
       - skill: Rust
       - skill: Golang
+      - skill: Proxmox Virtual Environment
+      - skill: Proxmox Backup Server
+      - skill: Proxmox Mail Gateway
       - skill: Grafana
       - skill: Prometheus
       - skill: InfluxDB
