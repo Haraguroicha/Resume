@@ -210,6 +210,12 @@ params:
       - skill: blender
       - skill: 3ds Max
     certifications:
+      - name: Jamf 370
+        fullname: "Jamf Certified Endpoint Security Admin Certificate"
+        number: 202502-90659
+        since: 2025-02-10
+        until: 2027-02-10
+        i18nImageKey: jamf-370-cert-image-202502-90659
       - name: Jamf Management Engineer
         fullname: "Jamf Partner: Management Engineer"
         since: 2024-09-11
@@ -236,7 +242,7 @@ params:
         number: 202303-52156
         since: 2023-04-20
         until: 2025-04-20
-        i18nImageKey: jamf-370-cert-image
+        i18nImageKey: jamf-370-cert-image-202303-52156
       - name: Jamf 200
         fullname: "Jamf Certified Tech: Jamf Pro Version 10"
         number: 202302-51625

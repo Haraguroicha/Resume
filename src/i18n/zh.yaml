@@ -20,8 +20,10 @@
   translation: az-104.azure-administrator.zh-tw.png
 - id: jamf-200-cert-image
   translation: jamf-200.jamf-pro-v10.png
-- id: jamf-370-cert-image
-  translation: jamf-370.jamf-pro-protect.png
+- id: jamf-370-cert-image-202303-52156
+  translation: jamf-370.jamf-pro-protect-202303-52156.png
+- id: jamf-370-cert-image-202502-90659
+  translation: jamf-370.jamf-pro-protect-202502-90659.png
 - id: jamf-300-cert-image
   translation: jamf-300.jamf-pro-v10.png
 - id: JamfAmbassador_Badge
