@@ -37,9 +37,21 @@ summary:
     - Ham Radio amateur player with callsign `BM2OEH`
 jobs:
   list:
+    - position: CTO, Co-Founder
+      company: Walks Cloud Inc.
+      dates: 2021-03 - Present
+      location: Taipei, Taiwan
+      details: |
+        MIS Outsourcing undertake, build customer premises network planning and construction, information equipment inventory and asset management
+
+        * Lead and implement a product to managed cloud identities solution, and helps to integrated environment with networking authentication together
+        * Lead and design for structure networking infrastructure constructure
+        * MDM solutions consultant and management agent service
+        * Through Proxmox VE, we offer our clients flexible and scalable high-performance computing resources.
+        * TBA for addition detail
     - position: Information Security Engineer
       company: KlickKlack Co., Ltd.
-      dates: 2023-03 - Present
+      dates: 2023-03 - 2025-04
       location: Taipei, Taiwan
       details: |
         Research for MDM solutions to resolving customers' management and security related issues and also planning for MDM deployment to customers
@@ -67,18 +79,6 @@ jobs:
         * Cooperate with frontend to resolve CSR and SSG related issues
         * Making non-root container for customer which uses OpenStack infrastructure
         * Migrate Kubernetes into Knative infrastructure and integrate Azure AD authentication with Azure RBAC
-    - position: CTO, Co-Founder
-      company: Walks Cloud Inc.
-      dates: 2021-03 - Present
-      location: Taipei, Taiwan
-      details: |
-        MIS Outsourcing undertake, build customer premises network planning and construction, information equipment inventory and asset management
-
-        * Lead and implement a product to managed cloud identities solution, and helps to integrated environment with networking authentication together
-        * Lead and design for structure networking infrastructure constructure
-        * MDM solutions consultant and management agent service
-        * Through Proxmox VE, we offer our clients flexible and scalable high-performance computing resources.
-        * TBA for addition detail
     - position: Systems Engineer
       company: TeamT5 Inc.
       dates: 2018-08 - 2021-03

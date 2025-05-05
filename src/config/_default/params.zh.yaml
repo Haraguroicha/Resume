@@ -37,9 +37,21 @@ summary:
     - 業餘無線電玩家 (呼號 `BM2OEH`)
 jobs:
   list:
+    - position: 技術長, 共同創辦人
+      company: Walks Cloud Inc. (行雲資訊有限公司)
+      dates: 2021-03 - Present
+      location: 台灣台北
+      details: |
+        MIS 服務外包承接，客戶辦公室網路規劃建置與建構，資訊設備資產盤點與管理
+
+        * 帶領實作產品來管理雲端身份驗證解決方案，同時協助客戶整合網路驗證環境
+        * 帶領設計結構化網路佈線基礎建設
+        * MDM 解決方案顧問與代管服務
+        * 透過 Proxmox VE，提供客戶彈性且可擴展的高性能運算資源
+        * 待補充更多詳細
     - position: 資訊安全工程師
       company: 可立可股份有限公司
-      dates: 2023-03 - Present
+      dates: 2023-03 - 2025-04
       location: 台灣台北
       details: |
         尋找 MDM 解決方案來解決客戶在安全與管理相關疑難雜症與計畫導入 MDM 建置給客戶
@@ -67,18 +79,6 @@ jobs:
         * 與前端工程師合作解決 CSR 和 SSG 相關的問題
         * 製作非 root 的容器給使用 OpenStack 架構的客戶
         * 遷移 Kubernetes 至 Knative 架構，並且整合 Azure AD 整合驗證與 Azure RBAC
-    - position: 技術長, 共同創辦人
-      company: Walks Cloud Inc. (行雲資訊有限公司)
-      dates: 2021-03 - Present
-      location: 台灣台北
-      details: |
-        MIS 服務外包承接，客戶辦公室網路規劃建置與建構，資訊設備資產盤點與管理
-
-        * 帶領實作產品來管理雲端身份驗證解決方案，同時協助客戶整合網路驗證環境
-        * 帶領設計結構化網路佈線基礎建設
-        * MDM 解決方案顧問與代管服務
-        * 透過 Proxmox VE，提供客戶彈性且可擴展的高性能運算資源
-        * 待補充更多詳細
     - position: 系統工程師
       company: TeamT5 Inc. (杜浦數位安全有限公司)
       dates: 2018-08 - 2021-03
