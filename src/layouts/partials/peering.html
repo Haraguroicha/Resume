@@ -30,8 +30,8 @@
                 Please kindly contact with <a href="{{ .url }}" target="_blank">{{ .name }}</a> for peering operations.
             {{- end }}
         {{- end }}
-        <h3 class="section-subtitle">Locations</h3>
         {{- if gt (len .Site.Params.peering.locations) 0 }}
+            <h3 class="section-subtitle">Locations</h3>
             <table class="peering-location">
                 <tr>
                     <th>Origin</th>
@@ -53,8 +53,8 @@
                 {{- end }}
             </table>
         {{- end }}
-        <h3 class="section-subtitle">IX</h3>
         {{- if gt (len .Site.Params.peering.ix) 0 }}
+            <h3 class="section-subtitle">IX</h3>
             <table class="peering-ix">
                 <tr>
                     <th>IXP</th>
