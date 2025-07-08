@@ -49,10 +49,6 @@ params:
             sponsors:
               - name: TunnelBroker.ch (Securebit AG)
                 web: https://www.tunnelbroker.ch/
-          - net6: 2602:fc23:111::/48
-            sponsors:
-              - name: August Internet Limited
-                web: https://www.august.tw/
         contact:
           name: 腹黒い茶
           url: https://t.me/Haraguroicha
@@ -110,27 +106,7 @@ params:
           - WireGuard
           - GRE
           - IPSec
-      - origin: Fremont, US
-        port: 1Gbps
-        services:
-          - direct in LL-IX
-          - direct in Lambda Internet Exchange
-          - WireGuard
-          - GRE
-          - IPSec
-    ix:
-      - ixp: LL-IX
-        db: https://peeringdb.com/ix/2343
-        port: 1Gbps
-        addr:
-          - 5.101.92.218
-          - 2001:678:4fc::92:218
-      - ixp: Lambda Internet Exchange
-        db: https://peeringdb.com/ix/3634
-        port: 1Gbps
-        addr:
-          - 149.112.26.7
-          - 2a0f:607:1070::7
+    ix: []
   githubBase: https://github.com/Haraguroicha/Resume
   author: 腹黒い茶
   fb:
